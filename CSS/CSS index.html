@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,500;1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gama Academy</title>
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <img src="Imagens/Sky.png" width=10% alt="Logo JK">
+        </div>
+        <ul>
+            <li><a target="_blank" href="github.com/jessicakopps">Github</a></li>
+            <li><a target="_blank" href="mailto:teste@teste.com">Email</a></li>
+            <li><a target="_blank" href="https://wa.me/51999999999">Whatsapp</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>JKopps</h1>
+                <h5>Network Technician</h5>
+            </div>
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fas fa-sort-down"></i>
+            </div>
+            <div onclick="displayAbout()" style="display: none;" id="about">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas pariatur recusandae, maiores nulla
+                    nisi aspernatur laboriosam ipsam dignissimos amet animi eligendi! Sapiente, voluptatem commodi
+                    labore dicta maiores dolorem voluptatum obcaecati?
+                </p>
+            </div>
+            <div class="form">
+                <form action="">
+                    <input type="text" placeholder="seu melhor email">
+                    <button>enviar!</button>                    
+                </form>
+            </div>
+        </section>
+    </main>
+    <script>
+        function displayAbout(){
+            var arrow = document.getElementById('animation')
+            arrow.classList.toggle('rotate');
+            var arrow = document.getElementById('about')
+            arrow.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
