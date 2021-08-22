@@ -31,7 +31,7 @@ Recriar código em JS
 
 ---
 ***TARGET***<br>
-Para do versão do javascript será transpilado.<br>
+Para a versão do javascript será transpilado.<br>
 Default é para o ES5 por ser suportada pela maioria dos browsers<br>
 
 ---
