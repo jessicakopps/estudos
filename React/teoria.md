@@ -476,25 +476,31 @@ Em home/index:
     //Se erro for verdadeiro, exiba 'usuario não...', se não, exiba nada.
 
 
-
 ---
 ***PARA APROFUNDAR***
 
 **React Context API** 
-  - API do próprio React para lidar com estados muito complexos
-  - Cria contextos para compartilhamento de dados (estado);
-  - Corrige muito bem o problema de prop drilling: quando vc passa a mesma propriedade para muitos components filhos; 
+   - API do próprio React para lidar com estados muito complexos
+   - Cria contextos para compartilhamento de dados (estado);
+   - Corrige muito bem o problema de prop drilling: quando vc passa a mesma propriedade para muitos components filhos; 
   
 **Redux**
-  - Cria um estado glopal, que será acessado por toda a aplicação;
-  - Lida muito bem com estados muito complexos e side effects (quando um evento ocorre por causa de uma ação do usuário ou da oprópria aplicação);
+   - Cria um estado glopal, que será acessado por toda a aplicação;
+   - Lida muito bem com estados muito complexos e side effects (quando um evento ocorre por causa de uma ação do usuário ou da oprópria aplicação);
 
-  **Context API x Redux**
+   **Context API x Redux**
   Contextos específicos x Contexto global
   Hook do próprio React x Pacote à parte, podendo ser usado com Angular, Vue etc
   Lida somente com estado x Lida com estados e Side Effects 
   Conclusão: Se sua aplicação precisa de uma gestão complexa de estado e precisa lidar com muitas ações acontecendo em diferentes partes do app, use Redux; Se vc precisa lida com compartilhamento de dados e componentes e evitar prop driççing, Context API.
 
-**Gatsby.js**
+**Gatsby.js**    
+   - Framework baseado em React;
+   - Tem todo um ecossistema já preparado para garantir o máximo de produtividade pro desenvolvedor;
+   - Integração com GraphQL;
+   - Você desenvolve com React e ele te devolve uma página estática (diferente de CMS's como Wordpress, que gera um site dinâmico).
 
 **Next.Js**
+   - Framework opn source, mantida pela Zeit;
+   - Visa facilitar e padronizar o desenvolvimento de aplicações Peact;
+   - Possui ferramentas que lidam com problemas referentes a SEO, com suporte a SSR(server side rendering).
