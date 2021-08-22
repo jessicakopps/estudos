@@ -28,7 +28,7 @@ Método render() é responsável por retornar o conteúdo HTML desse componente.
     import App from './componentes/App';
 
 ---
-***Agora novos componentes serão criados,linkados dentro do render() do App.js e importados nele.***
+***Agora novos componentes serão criados, linkados dentro do render() do App.js e importados nele.***
 
     import React from 'react';
 

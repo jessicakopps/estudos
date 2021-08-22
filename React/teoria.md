@@ -1,21 +1,28 @@
 ***REACT*** <br>
-- Framework oara criação de interfaces.
-- Construi SPA
-- Tudo dentro do JavaScript.
+- Lib para criação de interfaces.
+- Usada nas contruções de SPA (Single PAges Applications).
+- Podemos chamar de framework, devido a seu ecossistema:
+   ReactJS
+   React Native
+   Redux
+   Webpack etc
+- Tudo dentro do JavaScript (elementos visuais, lógica e estilo).
+- Padrão camelCase
 
 ***VANTAGENS***<br>
 
-**- Organização do Código**<br>
-   Código dividido em blocos(components) que funcionam independentes. 
-   <br>
-**- Divisão de Resposabilidade**<br>
-    Back-End: Regras de negócios.
-    Front-End: Interfaces.
-    <br>
-**- Programação Declarativa**<br>
-    Dizemos o que queremos e ele se encarrega.
+**Organização do Código**<br>
+   - Dividir nosso app/código em blocos específicos;
+   - O funcionamento de um componente não interfere em outro;
+   - Se um componente é removido, o resto continua funcionando;
+**Divisão de Resposabilidade**<br>
+   - Back-End: Regras de negócios.
+   - Front-End: Interface.
+**Programação Declarativa**<br>
+   - Dizemos o que queremos e ele se encarrega do resto.
 
-**Linguagem imperativa: damos cada passo a ser seguido.*
+*Programação Imperativa: Dizer tudo o que o computador precisa fazer.*
+*Programação Declarativa: Você não diz como, e sim o que quer que seja exibido.*
 
 ---
 **Alguns Pontos**<br>
@@ -24,53 +31,57 @@ O react acontece por renderizações.
 Renderizar = 'processar' algo e devolver um produto final.<br>
 
 **JSX:** Um cogigo html dentro de um código Javascript.<br>
-Ele vai pegar o arquivo JSX e inserir ele no Html do projeto.<br>
+Ele vai pegar o arquivo JSX e inserir no Html do projeto.<br>
 
 **Componetização:** Vamos criar componentes e renderiza-los no HTML.<br>
 
 **Fragmentos:** <> </> são tags vazias que vão envolver nosso código.<br>
 
 ---
+***Preparando o ambiente***
+1. Necessáio baixar o nodejs. Instalar pacotes npm e yarn
+
 ***Instalação***<br>
-***Sem instalar na maquina***<br>
+**Sem instalar na maquina**<br>
 Abra a pasta do projeto pelo terminal e digite:
 
     npx create-react-app *nome-projeto*
 
 Após carregar, siga as instruções do terminal.
 
-    cd *nome-projeto*
-    npm start
+   cd *nome-projeto*
+   npm start
 
-***Instalando versão global na maquina***<br>
+**Instalando versão global na maquina**<br>
 
 Abra a pasta do projeto e pelo terminal, digite:
 
-    npm install -g create-react-app
+   npm install -g create-react-app
 
 Agora digite:
 
-    create-react-app *nome-projeto*
+   create-react-app *nome-projeto*
 
 Após carregar, siga as instruções do terminal.
 
-    cd *nome-projeto*
-    npm start
+   cd *nome-projeto*
+   npm start
 
 ---
-***Começando***<br>
+***FUNDAMENTOS***<br>
+
 **GAMA**<br>
 Na pasta ./scr temos a App.js e o index.**js**<br>
 
-**App.js** é o arquivo do componente que vamos renderizar<br>
+**App.js** é o arquivo do componente que vamos renderizar. JSX = HTML dentro do JS. <br>
 
-    function App() {
-    return (
-    <>
-        <h1>Camila</h1>
-    </>
-    );
-    }
+   function App() {
+   return ( 
+      <>   
+      <h1>Hello Gama Academy</h1>   
+      </> 
+   );
+   }
 
 **index.js** é onde iremos colocar os componentes que queremos renderizar.
 
@@ -89,13 +100,12 @@ Na pasta public tem o arquivo index.html.É nele que os componentes serão rende
 
 Em projetos nossos, teremos outras pastas, componentes e linkaremos a outros elementos do html, por exemplo, iremos renderizar um componente no header ou ou outra div.<br>
 
-**Sempre** temos que imporatr e exportar os arquivos para que eles sejam renderizados.<br>
+**Sempre** temos que importar e exportar os arquivos para que eles sejam renderizados. Ex: import axios from './style'; <br>
 
 ---
-***PADRÃO***
+***Padrão***
 
     import
-
 
     function App() {
         return (
@@ -108,36 +118,32 @@ Em projetos nossos, teremos outras pastas, componentes e linkaremos a outros ele
     export default App;
 
 ---
-***CONCEITOS***
+***Conceitos***
 <br>
-- **Tags sem fechamento** no html como img, input ou br. São escritas com a barra <_input conteúdo />
+- **Tags sem fechamento** no html como img, input ou br, devem ter fechamento no JSX
 
-- Class é uma palavra reservado do React pois isso as classes são escritas como **className**
+- Class é uma palavra reservado do React, pori isso no JSX deve se usar className="" 
 
-- Elementos e atributos no HTML são propriedades no React.
+- No react, os atributos do HTML(class, name etc) são pripriedades.
 
-- Atributos de javascript são inscritos dentro de chaves, exemplo:
+- <> </> = fragments, usado pra retornar sem precisar colocar dentro de uma div
 
-        onClick = handlePesquisa}
+- Atributos de javascript são inscritos dentro de chaves:
+        onClick = {handlePesquisa}
         value = {usuário}
-
-
 
 ---
 **PROPS**
 <br>
 Podemos escrever propriedades na chamado do componente. <br>
-E Para ele receber essa propriedade devemos usar {props.elemento} <br>
-Exemplo: <br>
-
+E no JSX, o {} é usado para chamar uma função JS - {props.elemento} <br>
 
     ReactDOM.render(
     <App title="Hello world!"/>,
     document.getElementById('root')
     );
-
 ---
-    function App() {
+    function App(props) {
     return ( 
         <>
         <hi>{props.title}</hi>
@@ -148,92 +154,179 @@ Exemplo: <br>
 
 ---
 **HOOKS**<br>
-Definir (set) e modificar estados.
+É uma API muito facilitada que modifica algumas coisas dentro do React.
+
+*useState*: Permite que cite e modifique estados. É uma função que retorna um array:
+Convenção: [usuario, setUsuario] = respectivamente,  valorDoEstado, funçãoParaRetornarOValor
+
+    import React, { useState } from 'react';
+    function App(props) {
+    const [usuario, setUsuario] = useState('Guilherme')
+    return (
+    <>    
+        <p> { usuario }</p>  
+
+*useEffect*: Monitora uma mudança em cima de uma variável, e vai disparar uma função como uma variável for alterada.
+   
+   import React, { useEffect } from 'react';
+   export default function Repositories() {
+   useEffect(() => {
+      let repositoriesName = localStorage.getItem('repositoriesName');      
+      console.log(repositoriesName);
+   }, []);
+
 
 ---
-**API**
+***CONSUMINDO DADOS DE UMA API***
+Requisições, métodos e componentes controlados.
 Consumir dados de uma API: fazer requisição para um servidor, solicitando usar alguns de seus dados.<br>
 
+**CONTROLED IMPUTMENTS | COMPONENTES CONTROLADOS**
+Observa o que está sendo colocado no input: 
+
+import React, { useState } from 'react';
+
+   function App(props) {
+      const [ usuario, setUsuario ] = useState('');
+      return (
+         <>   
+         <p>{ usuario }</p>         
+         <input className="usuarioInput" placeholder="Usuario" onChange={e => setUsuario(e.target.value)}/>
+         <button type='button' >Pesquisar</button>
+         </>
+      );
+   }
+**Função no pesquisar:**
+   function handlePesquisa() {
+      console.log(usuario);
+   }
+  return (     
+     ...
+     <button type='button' onClick={handlePesquisa}> 
+     ...
+
+**INSTALAR O PACOTE AXIOS PARA O REACT**
+Usados para buscar informaçõs em um site. Aprofundar conhecimento em https://github.com/axios/axios 
+
+   npm install axios
+
+No app.js acrescentar: import axios from 'axios';
+
+Para buscar API do usuário colocado no input pesquisar:
+
+   function handlePesquisa() {
+      axios.get(`https://api.github.com/users/${usuario}/repos`).then(response => console.log(response));
+   }
+
 **API REST**<br>
-ParÂmetros:<br>
+Parâmetros:<br>
 
 **API RESTFUL**<br>
 Seguir todos os parâmetros REST<br>
 
 ---
-**REACT-ROUTER**<br>
+***INSTALANDO E CONFIGURANDO REACT-ROUTER-DOM***<br>
 Serve para rotearmos todas as telas da nossa aplicação, por exemplo, tela home e tela fale conosco.<br>
 Muda a rota de acordo com o que escolhemos<br>
 
-**Instalando React Dom**<br>
+**Criar o arquivo Repositories.js dentro de src**
 
+   import React from 'react';
+
+   function Repositories() {
+      return (
+         <h1>Repositories</h1>
+      )
+   }
+export default Repositories;
+
+ou 
+   export default function Repositories() {
+
+Em index.js: 
+   import Repositories from './Reposiories';
+   <React.StrictMode>
+     <Repositories />
+
+
+**Instalando React Dom**<br> 
+https://reactrouter.com/web/guides/quick-start
+   
     npm install react-router-dom
     
-**Cria a pasta routes.js**
+**Criar o arquivo routes.js em src**
 
-    import React from 'react';
-    import { Switch, Route, BrowserRouter } from 'react-router-dom';
-    import Component from './Component';
-    import Component from './Component';
+   import React from 'react';
+   import { Switch, Route, BrowserRouter } from 'react-router-dom';
+   import Repositories from './Repositories';
 
+   export default function Routes() {
+      return ( 
+         <BrowserRouter>
+            <Switch >
+            <Route path="/repositories" component={Repositories} /> 
+            </Switch>
+         </BrowserRouter>
+      )
+   }
+**IMPORTANDO AS ROTAS NO COMPONENTE APP**
 
-    function Routes() {
-        return ( 
-            <BrowserRouter>
-                <Switch >
-                <Route path="/component" component={ Component } /> 
-                <Route path="/component" component={ Component } /> 
-                </Switch>
-            </BrowserRouter>
-        )
-    }
-
-    export default Routes;
+**Criar o arquivo Home.js em src**
+Copiar do app.js e colar no Home.js. 
 
 **Dentro de App.js**<br>
-Chamaremos apenas o componente Routes. <br>
 
-    import React from 'react';
-    import Routes from './routes';
+   import React from 'react';
+   import Routes from './routes';
 
-    function App() {
-    return ( 
-        <>
-          <Routes />
-        </>
-        );
-    }
+   function App() {
+      return (     
+         <>               
+      
+         </>
+      );
+   }
+export default App;
 
+**Definir a página raiz/home (em routes.js):**
+   <Switch >
+            <Route path="/" exact component={Home} />
 
-    export default App;
 
 ---
+***ORGANIZAÇÃO, BOAS PRÁTICAS E COMPONENTES DE ESTILO***
+- Crie pastas para suas páginas (Home, Repositories), e crie uma pasta pages para coloca-las lá.
+- Crie a pasta components
+
 ***STYLED-COMPONENTS***<br>
+Substitui o uso de id e classes para alteração do design da página.
+
 **Instalação**<br>
-Na pasta do projeto:<br>
+https://styled-components.com/
 
-    # with npm
-    npm install --save styled-components
+   npm install --save styled-components
+   ou
+   yarn add styled-components
 
-    # with yarn
-    yarn add styled-components
-
-**Cria um arquivo js na pasta da página em questão.**
+**Cria o arquivo styled.js na pasta(repositories) da página em questão.**
+(export const nomeDaClasse = styled.elementoHTML`)
 
     import styled from "styled-components";
 
-    export const NOME-DA-CLASS = styled.ELEMENTO-HTML`
-        color: #000;
-        font-family: sans-serif;
-        font-size: 12px;
+   export const Title = styled.h1`
+      text-alugn: center;
+      font-size: 2rem;      
+      font-family: sans-serif;      
+      color: #333;
     `;
 
 **Vá no arquivo do componente e importe:**
+(Importe tudo(*) como S em 'arq')
 
-    import * as S from './styled'
+    import * as S from './styled';
 
 
- **mude o ELEMENTO-HTML por S.NOME-DA-CLASS;**
+ **Mude o elementoHTML por nomeDaClasse;**
  
     <S.Container>
 
@@ -245,43 +338,105 @@ Na pasta do projeto:<br>
     color: palevioletred;
     `;
 
-    antes:   
-    render(
-        <Section>
-            <h1>
-             Hello World!
-            </h1>
-        </Section>
+   antes:   
+   render(
+      <>
+         <h1>Hello World!</h1>
+      </>
+   );
+
+   depois:
+   render(
+      <>
+         <S.Title>Hello World!</S.Title>
+      </>
     );
 
-    depois:
-    render(
-        <Section>
-            <Title>
-             Hello World!
-            </Title>
-        </Section>
-    );
+**Em App.js crie u ar css e adicione o import para alterar o design geral**
+    import './style.css';
 
 ---
-***LOCAL STORAGE***<br>
-LocalStorage consiste em salvar, adicionar, recuperar ou excluir dados localmente em um navegador Web, esta informação é guardada na forma de pares de chave-valor e os valores podem ser apenas strings.<br>
+***SALVANDO DADOS NO STORAGE***
+LocalStorage consiste em salvar, adicionar, recuperar ou excluir dados localmente em um navegador Web. Essa informação é guardada na forma de pares de chave-valor e os valores podem ser apenas *strings* (JSON.stringify).<br>
 
-    meuStorage = localStorage;
+   function App(props) {...
+      {            
+         const repositories = response.data;
+         const repositoriesName = [];                         // transforma o repositoriesName em array
+         repositories.map((repository) => {
+            repositoriesName.push(repository.name);
+         });
+      localStorage.setItem('repositoriesName', JSON.stringify(repositoriesName));   //transforma em string 
+      }); 
+   }
 
-    localStorage.setItem('meuGato', 'Tom');
+No navegador: Inspecionar, Application, Local Storage, //localhost, Value
 
 ---
-***REDICIONAR PÁGINAS*** <br>
+***RENDERIZANDO REPOSITÓRIOS E PROGRAMAÇÃO DECLARATIVA*** <br>
+
+***Redirecionar Páginas*** <br>
+
+**useHistory**
+É uma função do JS  que permite controlar a página que você está(direcionar, acessar outras pag.)
+
 Podemos usar o **useHistory** em botões, por exemplo:
-
-    import { useHistory } from 'react-router-dom'
 
     const history = useHistory();
     const voltar = () => {
     history.push('/homepage')
     }
     <button onClick={ voltar }}>Voltar</button>
+
+Em home/index: 
+
+   import { useHistory } from 'react-router-dom';
+
+Abaixo do JSON:
+
+   history.push('/repositories');
+
+Em repositories/index:
+
+import React, { useEffect, useState } from 'react';
+
+export default function Repositories() {
+   const [ repositories, setRepositories ] = useState([]);
+   useEffect(() => {
+      let repositoriesName = localStorage.getItem('repositoriesName');
+      repositoriesName = JSON.parse(repositoriesName);
+      setRepositories(repositoriesName);
+      localStorage.clear();
+   }, []);
+   ...
+   <S.List>
+      { repositories.map(repository => {
+         return (
+            <S.ListItem>Repositório: { repository }</S.ListItem>
+         )
+      }) }
+   </S.List>
+
+***Link react-router-dom***
+
+**Link**
+No repositories/styled:
+
+   import { Link } from 'react-router-dom';
+
+   export const LinkHome = styled(Link)`  
+
+`;
+Podemos usar o **Link** para vincularmos URl internas ou barras de navegação que não ficam visiveis durante a navegação:
+
+    import { Link } from 'react-router-dom'
+
+    <Link to = '/home' style = {{background: 'green'}>Home</Link>
+
+Podemos usar o **a** para vincularmos URL externas:
+
+    <a href="https://github.com/">Git</a>
+
 
 Podemos usar a **NavLink** com barras de navegação, ela nos mostra qual guia está ativa, por exemplo:<br>:
 
@@ -290,41 +445,56 @@ Podemos usar a **NavLink** com barras de navegação, ela nos mostra qual guia e
     <NavLink to = '/home' style = {{background: 'green'}} activeStyle = {{background: 'red'}}>Home</NavLink>
     <NavLink to = '/about' style = {{background: 'green'}} activeStyle = {{background: 'red'}}>About</NavLink>
     
-Podemos usar o **Link** para vincularmos URl internas ou barras de navegação que não ficam visiveis durante a navegação, por exemplo:<br>
-
-    import { Link } from 'react-router-dom'
-
-    <Link to = '/home' style = {{background: 'green'}>Home</Link>
-
-Podemos usar o **a** para vincularmos URL externas, por exemplo:
-
-    <a href="https://github.com/">Git</a>
 
 ---
-***TRATANDO ERROS***
+***TRATAMENTO DE ERROS E useHistory***
 
-Dentro do componente funcional:
+No repositores/index:
+   import { useHistory } from 'react-router-dom';
+
+   if { ...
+   } else {
+         history.push('/');
+      }
+
+**Conditional rendering:** 
+usar um condicional na renderização.
+
+Em home/index:
 
     const [ erro, setErro ] = useState(false);
 
-Dentro da função que vai manipular o elemento:
+      setErro(false);
+   });
+   .catch(err => {
+      setErro(true);
+   });
 
-
-    setErro(false);
-
-    .catch(err => {
-        setErro(true);
-        });
-
-Dentro do return do componente funcional:
-
+   return (
     { erro ? <S.ErrorMgs>Usuário não encontrado, tente novamente!</S.ErrorMgs> : null } 
 
-**Conditional rendering:** usar um condicional na renderização.
+    //Se erro for verdadeiro, exiba 'usuario não...', se não, exiba nada.
+
+
 
 ---
 ***PARA APROFUNDAR***
-- React Context API
-- Redux
-- Next.Js
-- Gatsby.js 
+
+**React Context API** 
+  - API do próprio React para lidar com estados muito complexos
+  - Cria contextos para compartilhamento de dados (estado);
+  - Corrige muito bem o problema de prop drilling: quando vc passa a mesma propriedade para muitos components filhos; 
+  
+**Redux**
+  - Cria um estado glopal, que será acessado por toda a aplicação;
+  - Lida muito bem com estados muito complexos e side effects (quando um evento ocorre por causa de uma ação do usuário ou da oprópria aplicação);
+
+  **Context API x Redux**
+  Contextos específicos x Contexto global
+  Hook do próprio React x Pacote à parte, podendo ser usado com Angular, Vue etc
+  Lida somente com estado x Lida com estados e Side Effects 
+  Conclusão: Se sua aplicação precisa de uma gestão complexa de estado e precisa lidar com muitas ações acontecendo em diferentes partes do app, use Redux; Se vc precisa lida com compartilhamento de dados e componentes e evitar prop driççing, Context API.
+
+**Gatsby.js**
+
+**Next.Js**

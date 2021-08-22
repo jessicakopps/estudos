@@ -46,3 +46,19 @@ Mobile First (68% da pop.)
 **!important:** forçar um estilo
 
 ---
+***SASS (Syntactically Awesome Style Sheets)***
+Em vez de escrever input:focus ou input:hover fora, use o &:input dentro https://sass-lang.com/
+Ex no React
+:    
+   export const Input = styled.input`
+      border: 1px solid #ddd;
+      height: 2rem;
+      padding: 0 .5rem;
+      border-radius: .25rem 0 0 .25rem;
+      
+      &:focus,
+      &:active {
+         outline:none;
+         border-shadow: none;
+      }
+    `;
