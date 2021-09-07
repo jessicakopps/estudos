@@ -53,7 +53,7 @@ Após carregar, siga as instruções do terminal.
     cd *nome-projeto*
     npm start
 <br>
-**Instalando versão global na maquina**<br>
+**Instalando versão global na maquina** <br>
 
 Abra a pasta do projeto e pelo terminal, digite:
 
@@ -80,7 +80,8 @@ Na pasta ./scr temos a App.js e o index.**js**<br>
    function App() {
    return ( 
       <>   
-      <h1> Hello Gama Academy </h1>   
+      <h1> Hello Gama Academy 
+      </h1>   
       </> 
    );
    }
