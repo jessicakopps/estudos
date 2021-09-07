@@ -80,7 +80,8 @@ Na pasta ./scr temos a App.js e o index.**js**<br>
    function App() {
    return ( 
       <>   
-      <h1> Hello Gama Academy 
+      <h1> 
+      Hello Gama Academy 
       </h1>   
       </> 
    );
