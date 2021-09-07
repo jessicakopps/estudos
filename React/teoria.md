@@ -53,8 +53,8 @@ Após carregar, siga as instruções do terminal.
     cd *nome-projeto*
     npm start
 <br>
-**Instalando versão global na maquina** <br>
-
+**Instalando versão global na maquina** 
+<br>
 Abra a pasta do projeto e pelo terminal, digite:
 
     npm install -g create-react-app
@@ -68,8 +68,8 @@ Após carregar, siga as instruções do terminal.
     cd *nome-projeto*
     npm start
 <br>
----
 
+---
 ***FUNDAMENTOS*** <br>
 
 **GAMA**<br>
