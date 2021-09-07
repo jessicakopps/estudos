@@ -9,6 +9,7 @@
 - Tudo dentro do JavaScript (elementos visuais, lógica e estilo).
 - Padrão camelCase
 <br>
+
 ***VANTAGENS*** <br>
 
 **Organização do Código** <br>
@@ -79,7 +80,7 @@ Na pasta ./scr temos a App.js e o index.**js**<br>
    function App() {
    return ( 
       <>   
-      <h1>Hello Gama Academy</h1>   
+      <h1> Hello Gama Academy </h1>   
       </> 
    );
    }
