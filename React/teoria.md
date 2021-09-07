@@ -46,7 +46,7 @@ Ele vai pegar o arquivo JSX e inserir no Html do projeto.<br>
 Abra a pasta do projeto pelo terminal e digite:
 
     npx create-react-app *nome-projeto*
-<br>
+
 Após carregar, siga as instruções do terminal.
 
     cd *nome-projeto*
@@ -57,18 +57,19 @@ Após carregar, siga as instruções do terminal.
 Abra a pasta do projeto e pelo terminal, digite:
 
     npm install -g create-react-app
-<br>
+
 Agora digite:
 
     create-react-app *nome-projeto*
-<br>
+
 Após carregar, siga as instruções do terminal.
 
     cd *nome-projeto*
     npm start
 <br>
 ---
-***FUNDAMENTOS***<br>
+
+***FUNDAMENTOS*** <br>
 
 **GAMA**<br>
 Na pasta ./scr temos a App.js e o index.**js**<br>
