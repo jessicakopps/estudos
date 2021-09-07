@@ -53,8 +53,8 @@ Após carregar, siga as instruções do terminal.
     cd *nome-projeto*
     npm start
 <br>
-**Instalando versão global na maquina** 
-<br>
+
+**Instalando versão global na maquina** <br>
 Abra a pasta do projeto e pelo terminal, digite:
 
     npm install -g create-react-app
@@ -77,15 +77,13 @@ Na pasta ./scr temos a App.js e o index.**js**<br>
 
 **App.js** é o arquivo do componente que vamos renderizar. JSX = HTML dentro do JS. <br>
 
-   function App() {
-   return ( 
+    function App() {
+    return ( 
       <>   
-      <h1> 
-      Hello Gama Academy 
-      </h1>   
+      <h1> Hello Gama Academy </h1>   
       </> 
-   );
-   }
+    );
+    }
 
 **index.js** é onde iremos colocar os componentes que queremos renderizar.
 
