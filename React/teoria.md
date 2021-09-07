@@ -9,16 +9,16 @@
 - Tudo dentro do JavaScript (elementos visuais, lógica e estilo).
 - Padrão camelCase
 <br>
-***VANTAGENS***<br>
+***VANTAGENS*** <br>
 
-**Organização do Código**<br>
+**Organização do Código** <br>
    - Dividir nosso app/código em blocos específicos;
    - O funcionamento de um componente não interfere em outro;
    - Se um componente é removido, o resto continua funcionando;
-**Divisão de Resposabilidade**<br>
+**Divisão de Resposabilidade** <br>
    - Back-End: Regras de negócios.
    - Front-End: Interface.
-**Programação Declarativa**<br>
+**Programação Declarativa** <br>
    - Dizemos o que queremos e ele se encarrega do resto.
 
 *Programação Imperativa: Dizer tudo o que o computador precisa fazer.*
@@ -41,8 +41,8 @@ Ele vai pegar o arquivo JSX e inserir no Html do projeto.<br>
 ***Preparando o ambiente***
 1. Necessáio baixar o nodejs. Instalar pacotes npm e yarn
 
-***Instalação***<br>
-**Sem instalar na maquina**<br>
+***Instalação*** <br>
+**Sem instalar na maquina** <br>
 Abra a pasta do projeto pelo terminal e digite:
 
     npx create-react-app *nome-projeto*
