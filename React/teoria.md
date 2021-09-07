@@ -39,7 +39,7 @@ Ele vai pegar o arquivo JSX e inserir no Html do projeto.<br>
 **Fragmentos:** <> </> são tags vazias que vão envolver nosso código.<br>
 
 ---
-***Preparando o ambiente***
+***PREPARANDO O AMBIENTE***
 1. Necessáio baixar o nodejs. Instalar pacotes npm e yarn
 
 ***Instalação*** <br>
