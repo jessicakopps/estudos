@@ -186,7 +186,7 @@ Consumir dados de uma API: fazer requisição para um servidor, solicitando usar
 **CONTROLED IMPUTMENTS | COMPONENTES CONTROLADOS** <br>
 Observa o que está sendo colocado no input: 
 
-import React, { useState } from 'react';
+    import React, { useState } from 'react';
 
     function App(props) {
       const [ usuario, setUsuario ] = useState('');
@@ -197,7 +197,7 @@ import React, { useState } from 'react';
          <button type='button' >Pesquisar</button>
          </>
       );
-   }
+    }
 <br>
 
 **Função no pesquisar:** <br>
@@ -261,13 +261,13 @@ https://reactrouter.com/web/guides/quick-start
    
     npm install react-router-dom
     
-**Criar o arquivo routes.js em src**
+**Criar o arquivo routes.js em src** <br>
 
-   import React from 'react';
-   import { Switch, Route, BrowserRouter } from 'react-router-dom';
-   import Repositories from './Repositories';
+    import React from 'react';
+    import { Switch, Route, BrowserRouter } from 'react-router-dom';
+    import Repositories from './Repositories';
 
-   export default function Routes() {
+    export default function Routes() {
       return ( 
          <BrowserRouter>
             <Switch >
@@ -275,7 +275,9 @@ https://reactrouter.com/web/guides/quick-start
             </Switch>
          </BrowserRouter>
       )
-   }
+    }
+<br>
+
 **IMPORTANDO AS ROTAS NO COMPONENTE APP** <br>
 
 **Criar o arquivo Home.js em src**
@@ -331,14 +333,15 @@ https://styled-components.com/
      `;
 <br>
 
-**Vá no arquivo do componente e importe:**
+**Vá no arquivo do componente e importe:** <br>
 
 (Importe tudo(*) como S em 'arq')
 
     import * as S from './styled';
 
 <br>
- **Mude o elementoHTML por nomeDaClasse;**
+
+ **Mude o elementoHTML por nomeDaClasse:** <br>
  
     <S.Container>
 
@@ -351,14 +354,14 @@ https://styled-components.com/
     `;
 
    antes:   
-   render(
+    render(
       <>
-         <h1>Hello World!</h1>
+         <h1> Hello World! </h1>
       </>
    );
 
    depois:
-   render(
+    render(
       <>
          <S.Title>Hello World!</S.Title>
       </>
@@ -368,10 +371,10 @@ https://styled-components.com/
     import './style.css';
 
 ---
-***SALVANDO DADOS NO STORAGE***
+***SALVANDO DADOS NO STORAGE*** <br>
 LocalStorage consiste em salvar, adicionar, recuperar ou excluir dados localmente em um navegador Web. Essa informação é guardada na forma de pares de chave-valor e os valores podem ser apenas *strings* (JSON.stringify).<br>
 
-   function App(props) {...
+    function App(props) {...
       {            
          const repositories = response.data;
          const repositoriesName = [];                         // transforma o repositoriesName em array
@@ -392,35 +395,35 @@ No navegador: Inspecionar, Application, Local Storage, //localhost, Value
 **useHistory**
 É uma função do JS  que permite controlar a página que você está(direcionar, acessar outras pag.)
 
-Podemos usar o **useHistory** em botões, por exemplo:
+Podemos usar o **useHistory** em botões, por exemplo: <br>
 
-    const history = useHistory();
-    const voltar = () => {
-    history.push('/homepage')
-    }
-    <button onClick={ voltar }}>Voltar</button>
+     const history = useHistory();
+     const voltar = () => {
+     history.push('/homepage')
+     }
+     <button onClick={ voltar }}>Voltar</button>
 
-Em home/index: 
+Em home/index: <br>
 
-   import { useHistory } from 'react-router-dom';
+    import { useHistory } from 'react-router-dom';
 
-Abaixo do JSON:
+Abaixo do JSON: <br>
 
-   history.push('/repositories');
+    history.push('/repositories');
 
-Em repositories/index:
+Em repositories/index: <br>
 
-import React, { useEffect, useState } from 'react';
+    import React, { useEffect, useState } from 'react';
 
-export default function Repositories() {
-   const [ repositories, setRepositories ] = useState([]);
-   useEffect(() => {
-      let repositoriesName = localStorage.getItem('repositoriesName');
-      repositoriesName = JSON.parse(repositoriesName);
-      setRepositories(repositoriesName);
-      localStorage.clear();
-   }, []);
-   ...
+    export default function Repositories() {
+       const [ repositories, setRepositories ] = useState([]);
+       useEffect(() => {
+          let repositoriesName = localStorage.getItem('repositoriesName');
+          repositoriesName = JSON.parse(repositoriesName);
+          setRepositories(repositoriesName);
+          localStorage.clear();
+       }, []);
+       ...
    <S.List>
       { repositories.map(repository => {
          return (
@@ -428,6 +431,7 @@ export default function Repositories() {
          )
       }) }
    </S.List>
+<br>
 
 ***Link react-router-dom***
 
@@ -439,6 +443,8 @@ No repositories/styled:
    export const LinkHome = styled(Link)`  
 
 `;
+
+<br>
 Podemos usar o **Link** para vincularmos URl internas ou barras de navegação que não ficam visiveis durante a navegação:
 
     import { Link } from 'react-router-dom'
@@ -450,7 +456,7 @@ Podemos usar o **a** para vincularmos URL externas:
     <a href="https://github.com/">Git</a>
 
 
-Podemos usar a **NavLink** com barras de navegação, ela nos mostra qual guia está ativa, por exemplo:<br>:
+Podemos usar a **NavLink** com barras de navegação, ela nos mostra qual guia está ativa, por exemplo:<br>
 
     import { NavLink } from 'react-router-dom'
 
@@ -464,29 +470,29 @@ Podemos usar a **NavLink** com barras de navegação, ela nos mostra qual guia e
 No repositores/index:
    import { useHistory } from 'react-router-dom';
 
-   if { ...
-   } else {
-         history.push('/');
-      }
+    if { ...
+    } else {
+          history.push('/');
+       }
 
-**Conditional rendering:** 
-usar um condicional na renderização.
+**Conditional rendering:**  <br>
+usar um condicional na renderização. <br>
 
 Em home/index:
 
     const [ erro, setErro ] = useState(false);
 
       setErro(false);
-   });
-   .catch(err => {
-      setErro(true);
-   });
+    });
+    .catch(err => {
+       setErro(true);
+    });
 
-   return (
-    { erro ? <S.ErrorMgs>Usuário não encontrado, tente novamente!</S.ErrorMgs> : null } 
+    return (
+     { erro ? <S.ErrorMgs>Usuário não encontrado, tente novamente!</S.ErrorMgs> : null } 
 
-    //Se erro for verdadeiro, exiba 'usuario não...', se não, exiba nada.
-
+//Se erro for verdadeiro, exiba 'usuario não...', se não, exiba nada.
+<br>
 
 ---
 ***PARA APROFUNDAR***
