@@ -8,7 +8,7 @@
    Webpack etc
 - Tudo dentro do JavaScript (elementos visuais, lógica e estilo).
 - Padrão camelCase
-
+<br>
 ***VANTAGENS***<br>
 
 **Organização do Código**<br>
@@ -46,27 +46,27 @@ Ele vai pegar o arquivo JSX e inserir no Html do projeto.<br>
 Abra a pasta do projeto pelo terminal e digite:
 
     npx create-react-app *nome-projeto*
-
+<br>
 Após carregar, siga as instruções do terminal.
 
-   cd *nome-projeto*
-   npm start
-
+    cd *nome-projeto*
+    npm start
+<br>
 **Instalando versão global na maquina**<br>
 
 Abra a pasta do projeto e pelo terminal, digite:
 
-   npm install -g create-react-app
-
+    npm install -g create-react-app
+<br>
 Agora digite:
 
-   create-react-app *nome-projeto*
-
+    create-react-app *nome-projeto*
+<br>
 Após carregar, siga as instruções do terminal.
 
-   cd *nome-projeto*
-   npm start
-
+    cd *nome-projeto*
+    npm start
+<br>
 ---
 ***FUNDAMENTOS***<br>
 
