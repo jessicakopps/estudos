@@ -170,25 +170,25 @@ Convenção: [usuario, setUsuario] = respectivamente,  valorDoEstado, funçãoPa
 
 *useEffect*: Monitora uma mudança em cima de uma variável, e vai disparar uma função como uma variável for alterada.
    
-   import React, { useEffect } from 'react';
-   export default function Repositories() {
-   useEffect(() => {
-      let repositoriesName = localStorage.getItem('repositoriesName');      
-      console.log(repositoriesName);
-   }, []);
+    import React, { useEffect } from 'react';
+    export default function Repositories() {
+    useEffect(() => {
+       let repositoriesName = localStorage.getItem('repositoriesName');      
+       console.log(repositoriesName);
+    }, []);
 
 
 ---
-***CONSUMINDO DADOS DE UMA API***
+***CONSUMINDO DADOS DE UMA API*** <br>
 Requisições, métodos e componentes controlados.
 Consumir dados de uma API: fazer requisição para um servidor, solicitando usar alguns de seus dados.<br>
 
-**CONTROLED IMPUTMENTS | COMPONENTES CONTROLADOS**
+**CONTROLED IMPUTMENTS | COMPONENTES CONTROLADOS** <br>
 Observa o que está sendo colocado no input: 
 
 import React, { useState } from 'react';
 
-   function App(props) {
+    function App(props) {
       const [ usuario, setUsuario ] = useState('');
       return (
          <>   
@@ -198,27 +198,31 @@ import React, { useState } from 'react';
          </>
       );
    }
-**Função no pesquisar:**
-   function handlePesquisa() {
-      console.log(usuario);
-   }
-  return (     
+<br>
+
+**Função no pesquisar:** <br>
+
+    function handlePesquisa() {
+       console.log(usuario);
+    }
+    return (     
      ...
      <button type='button' onClick={handlePesquisa}> 
      ...
 
-**INSTALAR O PACOTE AXIOS PARA O REACT**
+**INSTALAR O PACOTE AXIOS PARA O REACT** <br>
 Usados para buscar informaçõs em um site. Aprofundar conhecimento em https://github.com/axios/axios 
 
-   npm install axios
+    npm install axios
 
 No app.js acrescentar: import axios from 'axios';
 
 Para buscar API do usuário colocado no input pesquisar:
 
-   function handlePesquisa() {
+    function handlePesquisa() {
       axios.get(`https://api.github.com/users/${usuario}/repos`).then(response => console.log(response));
-   }
+    }
+<br>
 
 **API REST**<br>
 Parâmetros:<br>
@@ -233,23 +237,24 @@ Muda a rota de acordo com o que escolhemos<br>
 
 **Criar o arquivo Repositories.js dentro de src**
 
-   import React from 'react';
+    import React from 'react';
 
-   function Repositories() {
+    function Repositories() {
       return (
          <h1>Repositories</h1>
       )
-   }
-export default Repositories;
-
-ou 
-   export default function Repositories() {
+    }
+    export default Repositories; 
+    OU 
+    export default function Repositories() {
+<br>
 
 Em index.js: 
-   import Repositories from './Reposiories';
-   <React.StrictMode>
-     <Repositories />
 
+    import Repositories from './Reposiories';
+    <React.StrictMode>
+      <Repositories />
+<br>
 
 **Instalando React Dom**<br> 
 https://reactrouter.com/web/guides/quick-start
@@ -271,32 +276,35 @@ https://reactrouter.com/web/guides/quick-start
          </BrowserRouter>
       )
    }
-**IMPORTANDO AS ROTAS NO COMPONENTE APP**
+**IMPORTANDO AS ROTAS NO COMPONENTE APP** <br>
 
 **Criar o arquivo Home.js em src**
 Copiar do app.js e colar no Home.js. 
 
 **Dentro de App.js**<br>
 
-   import React from 'react';
-   import Routes from './routes';
+    import React from 'react';
+    import Routes from './routes';
 
-   function App() {
+    function App() {
       return (     
          <>               
       
          </>
       );
-   }
-export default App;
+    }
+    export default App;
+<br>
 
-**Definir a página raiz/home (em routes.js):**
-   <Switch >
+**Definir a página raiz/home (em routes.js):** <br>
+
+    <Switch >
             <Route path="/" exact component={Home} />
 
+<br>
 
 ---
-***ORGANIZAÇÃO, BOAS PRÁTICAS E COMPONENTES DE ESTILO***
+***ORGANIZAÇÃO, BOAS PRÁTICAS E COMPONENTES DE ESTILO***<br>
 - Crie pastas para suas páginas (Home, Repositories), e crie uma pasta pages para coloca-las lá.
 - Crie a pasta components
 
@@ -306,28 +314,30 @@ Substitui o uso de id e classes para alteração do design da página.
 **Instalação**<br>
 https://styled-components.com/
 
-   npm install --save styled-components
-   ou
-   yarn add styled-components
+    npm install --save styled-components
+    OU
+    yarn add styled-components
 
-**Cria o arquivo styled.js na pasta(repositories) da página em questão.**
+**Cria o arquivo styled.js na pasta(repositories) da página em questão.** <br>
 (export const nomeDaClasse = styled.elementoHTML`)
 
     import styled from "styled-components";
 
-   export const Title = styled.h1`
-      text-alugn: center;
-      font-size: 2rem;      
-      font-family: sans-serif;      
-      color: #333;
-    `;
+    export const Title = styled.h1`
+       text-align: center;
+       font-size: 2rem;      
+       font-family: sans-serif;      
+       color: #333;
+     `;
+<br>
 
 **Vá no arquivo do componente e importe:**
+
 (Importe tudo(*) como S em 'arq')
 
     import * as S from './styled';
 
-
+<br>
  **Mude o elementoHTML por nomeDaClasse;**
  
     <S.Container>
