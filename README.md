@@ -1,6 +1,10 @@
-# Gama Academy 📚 Resumo de Estudo 📚
+📚 Resumo de Estudo 📚
 
-Resumo de estudos do curso Start Tech da Gama Academy em parceria com a Ambev Tech.
+Resumo de estudo na área de programação. </br>
+Realizar anotações me ajuda no processo de aprendizado, tanto para fixar os conteúdos quanto para poder consultá-las quando preciso. </br>
+</br>
+E espero que possa ajudar a quem consultá-las também 🚀
+
 
 ---
 [![mv4iHUk.png](https://i.imgur.com/mv4iHUk.png)](https://imgur.com/mv4iHUk)
