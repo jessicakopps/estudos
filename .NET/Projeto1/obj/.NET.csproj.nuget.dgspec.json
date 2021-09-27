@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Programs\\GitHub\\estudos\\.NET\\csharp\\EstruturaDoPrograma\\.NET.csproj": {}
+  },
+  "projects": {
+    "E:\\Programs\\GitHub\\estudos\\.NET\\csharp\\EstruturaDoPrograma\\.NET.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Programs\\GitHub\\estudos\\.NET\\csharp\\EstruturaDoPrograma\\.NET.csproj",
+        "projectName": ".NET",
+        "projectPath": "E:\\Programs\\GitHub\\estudos\\.NET\\csharp\\EstruturaDoPrograma\\.NET.csproj",
+        "packagesPath": "C:\\Users\\D&J\\.nuget\\packages\\",
+        "outputPath": "E:\\Programs\\GitHub\\estudos\\.NET\\csharp\\EstruturaDoPrograma\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\D&J\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

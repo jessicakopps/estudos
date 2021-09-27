@@ -1,0 +1,16 @@
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\bin\Debug\net5.0\EstruturaDoPrograma.exe
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\bin\Debug\net5.0\EstruturaDoPrograma.deps.json
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\bin\Debug\net5.0\EstruturaDoPrograma.runtimeconfig.json
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\bin\Debug\net5.0\EstruturaDoPrograma.runtimeconfig.dev.json
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\bin\Debug\net5.0\EstruturaDoPrograma.dll
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\bin\Debug\net5.0\ref\EstruturaDoPrograma.dll
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\bin\Debug\net5.0\EstruturaDoPrograma.pdb
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\obj\Debug\net5.0\EstruturaDoPrograma.csproj.AssemblyReference.cache
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\obj\Debug\net5.0\EstruturaDoPrograma.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\obj\Debug\net5.0\EstruturaDoPrograma.AssemblyInfoInputs.cache
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\obj\Debug\net5.0\EstruturaDoPrograma.AssemblyInfo.cs
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\obj\Debug\net5.0\EstruturaDoPrograma.csproj.CoreCompileInputs.cache
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\obj\Debug\net5.0\EstruturaDoPrograma.dll
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\obj\Debug\net5.0\ref\EstruturaDoPrograma.dll
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\obj\Debug\net5.0\EstruturaDoPrograma.pdb
+E:\Programs\GitHub\estudos\.NET\csharp\01-EstruturaDoPrograma\obj\Debug\net5.0\EstruturaDoPrograma.genruntimeconfig.cache
