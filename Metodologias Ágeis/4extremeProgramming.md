@@ -30,7 +30,7 @@ Ponto negativos: Foi desenvolvido por programadores, mais focado em código em s
 - Ferramenta: Checkstyle
 
 ---
-***TDD*** 
+***TDD*** </br>
 Escreva os testes antes de desenvolver, e após refatore(corrigir, organizar e otimizar o código).
 
   - Ex 1: Validador de senha. A senha deve ter entre 5 e 10 caracteres.
@@ -44,7 +44,7 @@ Escreva os testes antes de desenvolver, e após refatore(corrigir, organizar e o
 - Desafios para adoção de prática: Aumento no esforço; Código legado; Falta de habilidades para escrita dos testes; Problemas específicos de domínio ou ferramenta.
 
 ---
-***Integração Contínua***
+***Integração Contínua*** </br>
 Check-in -> Source Repository(ex: git) -> CI Server: Buid,Test, Result -> Result -> Check-in
 A equipe sobre o código para o repositório, essa ferramenta do repositorio está conectado com servidor de integração contínua, e esse servidor fica monitorando o código, faz contruçao, testa, reporta, se paçou nos testes, lança.
 - Benefícios: Garantia e controle continua de qualidade; Habilita releases rápidas e frequentes.
