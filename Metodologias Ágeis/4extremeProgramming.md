@@ -18,7 +18,6 @@ Ponto negativos: Foi desenvolvido por programadores, mais focado em código em s
 - TDD
 - Integração Contínua
 - "Cebola" do XP
-</br>
 
 ---
 ***Padrão de Código:***
@@ -29,7 +28,6 @@ Ponto negativos: Foi desenvolvido por programadores, mais focado em código em s
 - Comentários: Comentários na língua definida usando um possível formato pré-definido.
 *O que usar para seguirem os padrões:*
 - Ferramenta: Checkstyle
-</br>
 
 ---
 ***TDD*** 
@@ -44,7 +42,6 @@ Escreva os testes antes de desenvolver, e após refatore(corrigir, organizar e o
 - Positivo: Melhoria da qualidade interna(código fácil de entender) e externa do código(interface do cliente)
 - Negativo: Redução na produtividade
 - Desafios para adoção de prática: Aumento no esforço; Código legado; Falta de habilidades para escrita dos testes; Problemas específicos de domínio ou ferramenta.
-</br>
 
 ---
 ***Integração Contínua***
@@ -52,7 +49,6 @@ Check-in -> Source Repository(ex: git) -> CI Server: Buid,Test, Result -> Result
 A equipe sobre o código para o repositório, essa ferramenta do repositorio está conectado com servidor de integração contínua, e esse servidor fica monitorando o código, faz contruçao, testa, reporta, se paçou nos testes, lança.
 - Benefícios: Garantia e controle continua de qualidade; Habilita releases rápidas e frequentes.
 - Desafios para adoção de prática: Escalabilidade; Infraestrutura apropriada; Habilidades específicas; Domínios de aplicação.
-</br>
 
 ---
 ***"Cebola" do XP***
