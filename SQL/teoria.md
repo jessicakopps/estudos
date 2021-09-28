@@ -154,7 +154,7 @@ create table documentos
 
 **KEYS**
 - Primary Key(PK): chave única de uma coluna em uma tabela. Não pode ser NULL.
-- Foreign keys (FK): referencia para a primary key em outra tabela para lincar as duas tabelas.Define o relacionamento entre 2 tabelas.
+- Foreign keys (FK): referencia para a primary key em outra tabela para lincar as duas tabelas. Define o relacionamento entre 2 tabelas.
 - references: Referencia qual tabela e a coluna da tabela.
 </br>
 
@@ -170,6 +170,7 @@ INSERT INTO tablename (book_id, title) values
 ('first guest', 'I got here!'), 
 ('second guest', 'I got here too!');
 ```
+
 ```
 insert into pessoa (nome, sobrenome, dtnascimento) 
 values ('Maria', 'Silva', '1990-02-28');
@@ -200,7 +201,7 @@ DELETE FROM tablename WHERE condition
 ```
 delete from pessoa where codpessoa = 1;
 ```
-- Se for apagado alguma fileira de pessoa, e a pessoa tiver registro em documentos, vai gerar um erro informando que as inf. em documentos devem ser apagados antes.
+- Se for apagado alguma fileira de pessoa, e a pessoa tiver registro em documentos, vai gerar um erro informando que as inf. em documentos devem ser apagadas antes.
 </br>
 
 **VER TABELA ou COLUNA | SELECT**
