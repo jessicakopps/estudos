@@ -17,7 +17,7 @@ Objetivo: encontrar gargalos. </br>
 
 Lean Startup - lançar um produto inovador que gere menos gasto e desperdicício.
 
-
+---
 ***Scrum x Kanban*** 
 </br>
 
