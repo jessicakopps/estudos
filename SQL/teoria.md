@@ -4,7 +4,7 @@
 Guia de Consulta Rápida: https://www.cobgiro.com/arquivos/mysql2.pdf </br>
 Documentação: https://www.w3schools.com/sql/ 
 </br>
-
+</br>
 - SGDB (Sistemas Gerenciadores de Banco de Dados) 
 Para armezanar muitos GB de dados: MySql, PostgreeSql...
 Os big data precisam ser armasenadas em NoSql, pois os Sql não dão conta. 
@@ -15,6 +15,7 @@ Os big data precisam ser armasenadas em NoSql, pois os Sql não dão conta.
   2. Não Relacionais (NoSql) 
 </br>
 
+---
 ***ALGUMAS INFORMAÇÕES INTERESSANTES***
 - O artefato mais comum para armazenamento de Dados é o arquivo
 - 2 Tipos de memoria no PC: RAM e ROM
@@ -28,6 +29,7 @@ O BD foi inventado para que mais usuários pudessem acessar as info aos mesmo te
 Surgiu a mais ou menos há 40 anos atrás. 
 </br>
 
+---
 ***3 PRINCIPAIS FORMAS*** </br>
 Todo BD relacional obrigatoriamente deve seguir as 3 formas normal de criação de Tabela. </br>
 
@@ -51,6 +53,7 @@ Todo BD relacional obrigatoriamente deve seguir as 3 formas normal de criação 
   - ex certo: Carro (placa, modelo, kmRodados, cod_fabricante), Fabricante (cod_fabricante, nome_fabricante) 
 </br>
 
+---
 ***PREPARANDO O AMBIENTE*** 
 </br>
 
@@ -89,13 +92,16 @@ Download Client: DBeaver (Pode ser usado para vários outros DB): https://dbeave
 - int: numero | calculos aritméticos
 - varchar: texto
 - integer: hold numbers that are whole, or without a decimal point
-- blob: para armezanar arquivo, convertido em binário(por meio de outra linguagem, ou programando no DB), ex: imagens </br>
+- blob: para armezanar arquivo, convertido em binário(por meio de outra linguagem, ou programando no DB), ex: imagens 
+</br>
 
-- Texto: dentro de aspas simples </br>
+- Texto: dentro de aspas simples 
+</br>
 
 **Infos**
 - A linguagem SQL NÃO é case-sensitive
-- Após executar os comandos, comente eles para não serem repetidos na execução </br>
+- Após executar os comandos, comente eles para não serem repetidos na execução 
+</br>
 
 ---
 ***SCRIPT***
