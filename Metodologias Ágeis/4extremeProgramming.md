@@ -63,6 +63,8 @@ A equipe sobre o código para o repositório, essa ferramenta do repositorio est
 </br>
 
 **Programação em Pares:** 2 pessoas, Driver e Navigator, trabalhando no mesmo código. O Driver digita o código e o Navigator vai fazendo perguntas e validando.
+</br>
+
 *Realidade*
 - Tarefa complexa
   - Maior qualidade
