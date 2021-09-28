@@ -16,23 +16,23 @@ Visão gera autogestão e proatividade.
 - Adaptação: o resultado gera uma adaptação
 </br>
 
-**Metodologia Ágil:** análise, produção e mudança. Entregas rápidas e melhorias continuas.
+**Metodologia Ágil:** análise, produção e mudança. Entregas rápidas e melhorias contínuas. </br>
 Evita diperdício, apresentando o simples e tornando-o complexo com o tempo.
 
 **Estratégia de entrega**
-A entregas não devem apenas serem rápidas mas devem tentar resolver o problema.
-Poderá incrementar de acordo com a demanda mas deve ser útil desde a primeira entrega.
+A entregas não devem apenas serem rápidas mas devem tentar resolver o problema. </br>
+Poderá incrementar de acordo com a demanda mas deve ser útil desde a primeira entrega. </br>
 
-Ex: Problema: Chegar do ponto A ao ponto B (com agilidade):
-1.uma roda 2.duas roda 3.corpo carro 4.carro (errado)
-1.skate 2.patinete 3.bicicleta 4.moto 5. (certo)
+Ex: Problema: Chegar do ponto A ao ponto B (com agilidade): </br>
+1.uma roda 2.duas roda 3.corpo carro 4.carro (errado) </br>
+1.skate 2.patinete 3.bicicleta 4.moto 5. (certo) </br>
 
-**Gestão produto (ágil):** foco no produto, clientes potenciais e demandas (melhor produto)
+**Gestão produto (ágil):** foco no produto, clientes potenciais e demandas (melhor produto). </br>
 **Gestão projeto:** triângulo de ferro: escopo, tempo e custo (o melhor que posso fazer dentro de um cenário)
 
-**Débito técnico** vem após uma entrega que se tornou grande para a primeira solução.
-Não se deve fazer entregar com débito técnico e justificar agilidade.
-E fazer essa correção no tempo certo é **Excelência técnica**.
+**Débito técnico** vem após uma entrega que se tornou grande para a primeira solução. </br>
+Não se deve fazer entregar com débito técnico e justificar agilidade. </br>
+Fazer essa correção no tempo certo é **Excelência técnica**.
 
 #### O código estar limpo e bem escrito é essencial para o retrabalho ser o mais simples e rápido possivel!
 
