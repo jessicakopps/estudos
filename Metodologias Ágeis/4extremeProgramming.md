@@ -20,6 +20,7 @@ Ponto negativos: Foi desenvolvido por programadores, mais focado em código em s
 - "Cebola" do XP
 </br>
 
+---
 ***Padrão de Código:***
 - Formatação: Uso de espaços em branco, endentações, colocação e chaves;
 - Estrutura do código: Estrutura do projeto, classes, recursos, pacotes, entre outros tipos de arquivo;
@@ -30,6 +31,7 @@ Ponto negativos: Foi desenvolvido por programadores, mais focado em código em s
 - Ferramenta: Checkstyle
 </br>
 
+---
 ***TDD*** 
 Escreva os testes antes de desenvolver, e após refatore(corrigir, organizar e otimizar o código).
 
@@ -44,6 +46,7 @@ Escreva os testes antes de desenvolver, e após refatore(corrigir, organizar e o
 - Desafios para adoção de prática: Aumento no esforço; Código legado; Falta de habilidades para escrita dos testes; Problemas específicos de domínio ou ferramenta.
 </br>
 
+---
 ***Integração Contínua***
 Check-in -> Source Repository(ex: git) -> CI Server: Buid,Test, Result -> Result -> Check-in
 A equipe sobre o código para o repositório, essa ferramenta do repositorio está conectado com servidor de integração contínua, e esse servidor fica monitorando o código, faz contruçao, testa, reporta, se paçou nos testes, lança.
@@ -51,6 +54,7 @@ A equipe sobre o código para o repositório, essa ferramenta do repositorio est
 - Desafios para adoção de prática: Escalabilidade; Infraestrutura apropriada; Habilidades específicas; Domínios de aplicação.
 </br>
 
+---
 ***"Cebola" do XP***
 - Code
 - Release Plan: Dura meses; Quais os objetivos deste lançamento? Quais funcionalidades (descrição de alto nível) vamos entregar neste lançamento? 
@@ -79,8 +83,8 @@ A equipe sobre o código para o repositório, essa ferramenta do repositorio est
 *Quando usar?* </br>
 Expertise     | Complexidade | Usar PP? </br>
 Júnior        | Baixa        | Sim, se maior qualidade for o alvo </br>
-              | Alta         | Sim, se maior qualidade for o alvo </br>
+ _____        | Alta         | Sim, se maior qualidade for o alvo </br>
 Intermediário | Baixa        | Não </br>
-              | Alta         | Sim, se maior qualidade for o alvo </br>
+ _____        | Alta         | Sim, se maior qualidade for o alvo </br>
 Sênior        | Baixa        | Não </br>
-              | Alta         | Não, a não ser que a tarefa seja muito complexa para um sênior sozinho </br>
+ _____        | Alta         | Não, a não ser que a tarefa seja muito complexa para um sênior sozinho </br>
