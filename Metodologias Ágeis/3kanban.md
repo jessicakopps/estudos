@@ -21,13 +21,17 @@ Lean Startup - lançar um produto inovador que gere menos gasto e desperdicício
 ***Scrum x Kanban*** 
 </br>
 
-*Scrum*
+*Scrum* </br>
 Fecha um sprint, a meta é fixa, mas o escopo pode mudar desde que esteja de acordo com a meta. </br>
 Mais descritivo.</br>
 Entregas de no máximo 1 mês. </br>
-*Kanban* 
+</br>
+
+*Kanban* </br>
 é fluxo contínuo. </br>
 Menos descritivo.</br>
 Sem prazos de entregas(sprint), o que pode fazer com que não tenha limite de demandas. </br>
+</br>
+
 *Scruban* </br>
 Usa-se o Kanban e algumas regras do Scrum.
