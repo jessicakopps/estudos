@@ -38,8 +38,8 @@ E fazer essa correção no tempo certo é **Excelência técnica**.
 
 ---
 ***MANIFESTO ÁGIL*** </br>
-Até 1990: modelo castata (waterfall) - Tradicional e previsível
-final dos 80's: internet e computador, tornaram os problemas mais complexos e foi necessário outras soluções. SCRUM, XP, DSDM, ASD, FDD, CRYSTALCLEAR
+Até 1990: modelo castata (waterfall) - Tradicional e previsível. </br>
+Final dos 80's: internet e computador, tornaram os problemas mais complexos e foi necessário outras soluções. SCRUM, XP, DSDM, ASD, FDD, CRYSTALCLEAR
 
 ---
 ***OS QUATRO VALORES*** </br>
