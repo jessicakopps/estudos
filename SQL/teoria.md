@@ -1,5 +1,8 @@
 # SQL (Structed Query Language)
 
+Guia de Consulta Rápida: https://www.cobgiro.com/arquivos/mysql2.pdf
+Documentação: https://www.w3schools.com/sql/
+
 - SGDB (Sistemas Gerenciadores de Banco de Dados) 
 Para armezanar muitos GB de dados: MySql, PostgreeSql...
 - 2 Principais tipos de BD:
