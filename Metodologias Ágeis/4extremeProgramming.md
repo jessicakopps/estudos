@@ -1,7 +1,8 @@
-***EXTREME PROGRAMING (XP)*** 
+# EXTREME PROGRAMING (XP) 
 Ideia muito simular ao Scrum, mas mais voltado para software
 
 Ponto negativos: Foi desenvolvido por programadores, mais focado em código em si. Pouco flexível
+</br>
 
 **Processo:**
 - Features "não prontas" -> Features mais importantes -> Planejamento iterativo ->
@@ -17,6 +18,7 @@ Ponto negativos: Foi desenvolvido por programadores, mais focado em código em s
 - TDD
 - Integração Contínua
 - "Cebola" do XP
+</br>
 
 ***Padrão de Código:***
 - Formatação: Uso de espaços em branco, endentações, colocação e chaves;
@@ -26,6 +28,7 @@ Ponto negativos: Foi desenvolvido por programadores, mais focado em código em s
 - Comentários: Comentários na língua definida usando um possível formato pré-definido.
 *O que usar para seguirem os padrões:*
 - Ferramenta: Checkstyle
+</br>
 
 ***TDD*** 
 Escreva os testes antes de desenvolver, e após refatore(corrigir, organizar e otimizar o código).
@@ -39,12 +42,14 @@ Escreva os testes antes de desenvolver, e após refatore(corrigir, organizar e o
 - Positivo: Melhoria da qualidade interna(código fácil de entender) e externa do código(interface do cliente)
 - Negativo: Redução na produtividade
 - Desafios para adoção de prática: Aumento no esforço; Código legado; Falta de habilidades para escrita dos testes; Problemas específicos de domínio ou ferramenta.
+</br>
 
 ***Integração Contínua***
 Check-in -> Source Repository(ex: git) -> CI Server: Buid,Test, Result -> Result -> Check-in
 A equipe sobre o código para o repositório, essa ferramenta do repositorio está conectado com servidor de integração contínua, e esse servidor fica monitorando o código, faz contruçao, testa, reporta, se paçou nos testes, lança.
 - Benefícios: Garantia e controle continua de qualidade; Habilita releases rápidas e frequentes.
 - Desafios para adoção de prática: Escalabilidade; Infraestrutura apropriada; Habilidades específicas; Domínios de aplicação.
+</br>
 
 ***"Cebola" do XP***
 - Code
@@ -55,6 +60,7 @@ A equipe sobre o código para o repositório, essa ferramenta do repositorio est
 - Pair Negotiation: Horas; Programação em pares
 - Unit Test: TDD
 - Pair Programming: Segundos; Programação em pares
+</br>
 
 **Programação em Pares:** 2 pessoas, Driver e Navigator, trabalhando no mesmo código. O Driver digita o código e o Navigator vai fazendo perguntas e validando.
 *Realidade*
@@ -68,12 +74,13 @@ A equipe sobre o código para o repositório, essa ferramenta do repositorio est
 - Fatores que podem influenciar
   - Aspectos sociais
   - Tipo de tarefa
+</br>
 
-*Quando usar?*
-Expertise     | Complexidade | Usar PP?
-Júnior        | Baixa        | Sim, se maior qualidade for o alvo
-              | Alta         | Sim, se maior qualidade for o alvo
-Intermediário | Baixa        | Não
-              | Alta         | Sim, se maior qualidade for o alvo
-Sênior        | Baixa        | Não
-              | Alta         | Não, a não ser que a tarefa seja muito complexa para um sênior sozinho
+*Quando usar?* </br>
+Expertise     | Complexidade | Usar PP? </br>
+Júnior        | Baixa        | Sim, se maior qualidade for o alvo </br>
+              | Alta         | Sim, se maior qualidade for o alvo </br>
+Intermediário | Baixa        | Não </br>
+              | Alta         | Sim, se maior qualidade for o alvo </br>
+Sênior        | Baixa        | Não </br>
+              | Alta         | Não, a não ser que a tarefa seja muito complexa para um sênior sozinho </br>
