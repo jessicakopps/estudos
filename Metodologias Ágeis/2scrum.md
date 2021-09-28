@@ -20,9 +20,9 @@
 É um mecanismo, ou melhor, um arcabouço para otimizar o sistema de entrega de valor, em ambientes complexos
 
 ---
-***PRODUCT GOAL*** *(template:romanpichler)*
-Product Strategy & Product Backlog
-Foco em pelo menos, uma meta de produto que a equipe esteja buscando
+***PRODUCT GOAL*** *(template:romanpichler)* </br>
+Product Strategy & Product Backlog </br>
+Foco em pelo menos, uma meta de produto que a equipe esteja buscando </br>
 Product Goal#1➡ Product Goal#2 ➡ ... Product Goal#5 ➡ Product Vision (ROADMAP)
 
 **Tipos**
@@ -44,7 +44,7 @@ Target Group, Needs, Product, Business Goal
 7. Company Vision : Executive & CEO
 
 ---
-***PRODUCT BACKLOG***
+***PRODUCT BACKLOG*** </br>
 Detalha tudo que (se pode modificar e melhorar que) será necessário no produto, no nível certo:
 - Funcionalidade, Defeito(bug), Defeito Técnico, Requisito Não-Funcional, Caso de Uso, Requisitos de Négocio, Experimento, Capacidade e Spike Investigativo.
 
@@ -82,7 +82,7 @@ Não se usa para comparar equipes.
 ***A EQUIPE SCRUM (Scrum Team)***
 
 **Crossfuncional:**
-- Product Owner (PO): Gerencia (maximiza) a entrega de valor (e.g., retorno do investimento) - Negócio -> PO: Ordenar as ideias da equipe -> Desenvolver. Prioriza e gerencia o Backlog do Produto
+- Product Owner (PO): Gerencia (maximiza) a entrega de valor (e.g., retorno do investimento) - Negócio ➡ PO: Ordenar as ideias da equipe ➡ Desenvolver. Prioriza e gerencia o Backlog do Produto
 - Scrum Master: Garantir que o ciclo todo funcione. Faz o meio de campo entre a Organização e a Equipe  Scrum. Causa remoção de impedimentos, de uma forma que deixe a equipe idependente. Lidera e facilita a adoção do Scrum.
 - Desenvolvedores: Transformam itens de backlog em funcionalidades de valor para o negócio. Desenvolvedor é qualquer pessoa que iá trabalhar em qualquer aspecto do produto que irá ser entregue (Testador, Escritor técnico, Analista, Especialista, Designer). Auto-gerenciavel - A equipe que define suas tarefas e o tempo.
 
@@ -96,7 +96,7 @@ Não se usa para comparar equipes.
 - Ideal é pessoas de modelo em T: Especialista em algo, mas com conhecimento em outras áreas, flexíveis.
 
 ---
-***DEFINITION OF DONE***
+***DEFINITION OF DONE*** </br>
 Parte do *incremento*. Questão de transparência: Expectativa/Definição de qualidade/pronto do produto.
 
 **Conjunto de critérios(gates):**
@@ -141,7 +141,7 @@ Defeitos major ou críticos x 0
 - Após os Sprint Planning, adicionar essas informações ao Scrum board
 
 ---
-***SPRINT EXECUTION***
+***SPRINT EXECUTION*** </br>
 Spring Backlog já está definido. Transformar as ideias do Sprint Backlog em incrementos.
 
 - Criar entregáveis: Na Sprint é entregue tudo e refinado o backlog. Usar o Scrum Board para ajudar no gerenciamento do dia a dia durante uma Sprit.
@@ -151,13 +151,16 @@ Spring Backlog já está definido. Transformar as ideias do Sprint Backlog em in
   - Há impedimentos na realização das tarefas? Se sim depois serão levadas ao PO
   - SPRING BURNDOWN: Gráfico usado como referência para entregas de tarefas, para baixo  
   - Refinar o Product Backlog (BACKLOG REFINEMENT): Quebrar as tarefas em tarefas menores
+</br>
 
 **Coisas que você NÃO precisa fazer:**
 - Você NÃO precisa lançar ao final de cada Sprint;
 - A Sprint NÃO é um gate; Um lançamento pode ser realizado durante a Spring
+</br>
 
 *A sprint está terminada e nem todas as tarefas foram finalizadas. A equipe quer jogar algumas para a próxima sprint. O que fazer?*
 - Volta pro Product Backlog e vai ser analizado se as tarefas entrarão ou não no próximo Planning.
+</br>
 
 *Surgiu um bug crítico em Produção. Estamos na metade da Sprint. Temos que esperar para a próxima Sprint para corrigi-lo?*
 - O único que não muda é a meta/Product Goal, o resto é flexível. Tire alguma demanda da Sprint e acrescente o bug.
@@ -165,9 +168,10 @@ Spring Backlog já está definido. Transformar as ideias do Sprint Backlog em in
 
 ---
 ***SPRINT REVIEW vs SPRING RETROSPECTIVE***
+</br>
 
-**Spring Review**
-Geralmente uma reunião e duração máxima de 4H, para adaptar o Product Backlog ou mesmo alterar o Product Goal.
+**Spring Review** </br>
+Geralmente uma reunião e duração máxima de 4H, para adaptar o Product Backlog ou mesmo alterar o Product Goal. </br>
 *Objetivo:* Diminuir a distância entre os clientes e a Scrum Team.
 
 - Product Backlog: Emerge e muda
@@ -176,8 +180,9 @@ Geralmente uma reunião e duração máxima de 4H, para adaptar o Product Backlo
 - Feedback e dados serão analisados pela Scrum Team, que irá atualizar o Product Backlog
 
 - BURNUP CHART: Gráfico usado como referência para entregas de tarefas, para cima. Fica claro a diferença de pontas adicionados nas springs.
+</br>
 
-**Spring Retrospective**
+**Spring Retrospective** </br>
 Após a Spring Review. Duração de 3H. Discussão da equipe sobre melhorias - inspecionar o trabalho da equipe, autoanálise
 
 - Normalmente o Scrum Master que lidera a reunião. Todos tem que estar presentes.
