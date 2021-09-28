@@ -41,12 +41,14 @@ E fazer essa correção no tempo certo é **Excelência técnica**.
 Até 1990: modelo castata (waterfall) - Tradicional e previsível
 final dos 80's: internet e computador, tornaram os problemas mais complexos e foi necessário outras soluções. SCRUM, XP, DSDM, ASD, FDD, CRYSTALCLEAR
 
+---
 ***OS QUATRO VALORES*** </br>
-    I – Indivíduos e interações acima de processos e ferramentas
-    II – Software funcionando é melhor que documentação abrangente
-    III – Colaboração com o cliente acima de negociação de contratos
-    IV – Responder a mudanças ao invés de seguir um plano
+    I – Indivíduos e interações acima de processos e ferramentas </br>
+    II – Software funcionando é melhor que documentação abrangente </br>
+    III – Colaboração com o cliente acima de negociação de contratos </br>
+    IV – Responder a mudanças ao invés de seguir um plano </br>
 
+---
 ***MENTALIDADE ÁGIL*** </br>
 "Estamos *descobrindo* maneiras *melhores* de desenvolver software..."
 
@@ -54,6 +56,7 @@ final dos 80's: internet e computador, tornaram os problemas mais complexos e fo
 - Adotar ciclos curtos, colaboração, e mudança;
 - Focar na entrega de valor.
 
+---
 ***OS DOZE PRINCIPIOS*** </br>
 *4 P's: Projeto, Produto, Pessoas, Projetos.*
 
