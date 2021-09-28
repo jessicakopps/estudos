@@ -2,15 +2,18 @@
 - Lê-se Sequel </br>
 
 Guia de Consulta Rápida: https://www.cobgiro.com/arquivos/mysql2.pdf </br>
-Documentação: https://www.w3schools.com/sql/ </br>
+Documentação: https://www.w3schools.com/sql/ 
+</br>
 
 - SGDB (Sistemas Gerenciadores de Banco de Dados) 
 Para armezanar muitos GB de dados: MySql, PostgreeSql...
-Os big data precisam ser armasenadas em NoSql, pois os Sql não dão conta. </br>
+Os big data precisam ser armasenadas em NoSql, pois os Sql não dão conta. 
+</br>
 
 - 2 Principais tipos de BD:
   1. Relacionais (Sql)
-  2. Não Relacionais (NoSql) </br>
+  2. Não Relacionais (NoSql) 
+</br>
 
 ***ALGUMAS INFORMAÇÕES INTERESSANTES***
 - O artefato mais comum para armazenamento de Dados é o arquivo
@@ -22,14 +25,16 @@ Os big data precisam ser armasenadas em NoSql, pois os Sql não dão conta. </br
 
 - Arquivos de rede: Quando mais de um usuário tenta abrir o arq, e aparece para abrir somente leitura. Semente 1 pessoa por vez pode acessar o arq. Imagina se tds os sistemas dependessem de arq.
 O BD foi inventado para que mais usuários pudessem acessar as info aos mesmo tempo.
-Surgiu a mais ou menos há 40 anos atrás. </br>
+Surgiu a mais ou menos há 40 anos atrás. 
+</br>
 
-***3 PRINCIPAIS FORMAS***
+***3 PRINCIPAIS FORMAS*** </br>
 Todo BD relacional obrigatoriamente deve seguir as 3 formas normal de criação de Tabela. </br>
 
 *Motivo*
 - Evitar redundância de info - ideal 0 de redudância
 - Evitar lentidão
+</br>
 
 - 1ª Forma Normal:
   - Tabela precisa ter PK(primary key); 
@@ -43,9 +48,11 @@ Todo BD relacional obrigatoriamente deve seguir as 3 formas normal de criação 
   - Tabela deve estar de acordo com a 2ªFN
   - Nome das colunas precisa ter um sentido independente
   - ex errado: Carro (placa, modelo, km_rodados, cod_fabricante, nome_fabricante)
-  - ex certo: Carro (placa, modelo, kmRodados, cod_fabricante), Fabricante (cod_fabricante, nome_fabricante) </br>
+  - ex certo: Carro (placa, modelo, kmRodados, cod_fabricante), Fabricante (cod_fabricante, nome_fabricante) 
+</br>
 
-***PREPARANDO O AMBIENTE*** </br>
+***PREPARANDO O AMBIENTE*** 
+</br>
 
 **Download Servidor** 
 MySQL MSI Installer: https://dev.mysql.com/downloads/windows/installer/8.0.html
@@ -56,13 +63,16 @@ MySQL MSI Installer: https://dev.mysql.com/downloads/windows/installer/8.0.html
 **Download Client** 
 Download Client: DBeaver (Pode ser usado para vários outros DB): https://dbeaver.io/download/
 - Choose Users: For anyone
-- Não mudamos os Componentes habilitados </br>
+- Não mudamos os Componentes habilitados 
+</br>
 
-***NO DBEAVER*** </br>
+***NO DBEAVER*** 
+</br>
 
 **Shortcuits** 
 - CTRL + ENTER = EXECUTAR
-- F5 = Atualizar (No campo com as DB) </br>
+- F5 = Atualizar (No campo com as DB) 
+</br>
 
 **Passo a passo** 
 - Clicar no + para add uma BD
@@ -71,8 +81,10 @@ Download Client: DBeaver (Pode ser usado para vários outros DB): https://dbeave
 - username: root
 - password: o que foi colocado no MySQL
 - Test Connection
-- SQL Editor - Open SQL script </br>
+- SQL Editor - Open SQL script 
+</br>
 
+---
 ***TIPOS***
 - int: numero | calculos aritméticos
 - varchar: texto
