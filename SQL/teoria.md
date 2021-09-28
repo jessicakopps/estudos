@@ -1,6 +1,7 @@
 # SQL (Structed Query Language)
+- Lê-se Sequel </br>
 
-Guia de Consulta Rápida: https://www.cobgiro.com/arquivos/mysql2.pdf
+Guia de Consulta Rápida: https://www.cobgiro.com/arquivos/mysql2.pdf </br>
 Documentação: https://www.w3schools.com/sql/
 
 - SGDB (Sistemas Gerenciadores de Banco de Dados) 
