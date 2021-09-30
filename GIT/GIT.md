@@ -1,4 +1,4 @@
-## GITHUB
+## GIT
 
 Sistema de controle de versão distribuido. Projetado com desempenho, segurança e flexibilidade.
 
