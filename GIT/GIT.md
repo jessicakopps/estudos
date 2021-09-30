@@ -100,3 +100,9 @@ git commit -am "Contribuição do projeto"
 git push
 set-up (resolve conflitos e cria no origin)
 ```
+
+---
+***FERRAMENTAS INTEGRADAS***
+
+- Automatização para encontrar o bug. Para identificar se você enviou um código bugado, impedindo de realizar o build. Quanto o codigo n tem bugs, o software ja manda para produção
+  - Ferramenta: Jenkings
