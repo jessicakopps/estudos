@@ -1,5 +1,9 @@
 ## GITHUB
 
+Sistema de controle de versão distribuido. Projetado com desempenho, segurança e flexibilidade.
+
+- Principais ferramentas: Github, Bitbucket, Gitlab
+
 ***GERAL***
 ```
 git status
@@ -8,22 +12,26 @@ git config
 git log: mostra todos commits e infos
 git show SHA1 (inspeciona o commit)
 git show (inspeciona o último commit)
-fork é fazer uma coópia para seu GitHub
+fork: fazer uma cópia para seu GitHub
 ```
 
 ---
-***INICIALIZAR REPOSITÓRIO LOCAL***
+***INICIALIZAR REPOSITÓRIO LOCAL | INIT, ADD, RESET, COMMIT, BRANCH***
 ```
 git init
 git add nome do aquivo || git add . (todos os arquivos)
 git reset: reverte o git add
 git commit -m "nome commit"
 git commit -am "nome commit" (atalho para adicionar e commitar juntos)
-git branch -M "novo nome da branch"
+git branch -m "novo nome da branch"
 ```
+Sempre mude a branch de MASTER para MAIN para não dar erro com o repositório remoto
 
 ---
-***BRANCH FEATURE (CAMINHO ALTERNATIVO)***
+***BRANCH FEATURE (CAMINHO ALTERNATIVO) | BRANCH, CHECKOUT, MERGE***
+
+- Branch: ramificação de uma linha temporal
+- feature: categorização
 ```
 git branch feature/nome-da-branch (criar)
 git checkout feature/nome-da-branch (vai para ela)
@@ -36,17 +44,25 @@ git branch -D feature/nome-da-branch (deleta branch)
 ```
 
 ---
-***ENVIAR PARA O GITHUB***
+***ENVIAR REPOSITÓRIO PARA O GITHUB | REMOTE, PUSH***
+
+criar repositório vazio no GitHub 
+URL do repositório que criou
 ```
-criar repositório vazio no site 
 git remote add origin URL
 git push -u origin nomeDaBranch
 ```
 
 ---
-***PEGAR DO GITHUB***
+***PEGAR REPOSITÓRIO DO GITHUB | CLONE***
 ```
 git clone URL
+```
+
+---
+***ATUALIZAR REPOSITORIO LOCAL | PULL***
+```
+git pull 
 ```
 
 ---
@@ -58,11 +74,30 @@ faça outro commit e push
 ```
 
 ---
-***ATUALIZAR REPOSITORIO LOCAL***
+***GIT IGNORE***
 ```
-git pull 
+.gitignore 
 ```
+- Arquivo onde ficará os nome de arquivos e pastas que não serão compartilhadas
+
 
 ---
-***GIT IGNORE***
-.gitignore (escreve nome de arquivos e pastas que devem ser ignorados)
+***GITFLOW***
+
+- separar a master pra não quebrarem o código
+
+[![C1qD7yM.png](https://i.imgur.com/C1qD7yM.png)](https://imgur.com/C1qD7yM)
+
+---
+***CONTRIBUINDO COM OUTROS PROJETOS | PULL REQUEST***
+
+- Clique em Fork no GitHub(direita em cima). Vai ser criado uma copia do repositorio
+- Sempre crie outra branch
+```
+git clone OU
+git clone URLrepositorio --recurse-submodules (baixa os outrso submodulos do rep.)
+git checkout -b 
+git commit -am "Contribuição do projeto"
+git push
+set-up (resolve conflitos e cria no origin)
+```
