@@ -94,7 +94,7 @@ faça outro commit e push
 - Sempre crie outra branch
 ```
 git clone OU
-git clone URLrepositorio --recurse-submodules (baixa os outrso submodulos do rep.)
+git clone URLrepositorio --recurse-submodules (baixa os outros submodulos do rep.)
 git checkout -b 
 git commit -am "Contribuição do projeto"
 git push
