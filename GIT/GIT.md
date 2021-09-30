@@ -46,10 +46,9 @@ git branch -D feature/nome-da-branch (deleta branch)
 ---
 ***ENVIAR REPOSITÓRIO PARA O GITHUB | REMOTE, PUSH***
 
-criar repositório vazio no GitHub 
-URL do repositório que criou
+- Criar repositório vazio no GitHub
 ```
-git remote add origin URL
+git remote add origin URLrepositorio
 git push -u origin nomeDaBranch
 ```
 
@@ -84,7 +83,7 @@ faça outro commit e push
 ---
 ***GITFLOW***
 
-- separar a master pra não quebrarem o código
+- Separar a master pra não quebrarem o código
 
 [![C1qD7yM.png](https://i.imgur.com/C1qD7yM.png)](https://imgur.com/C1qD7yM)
 
