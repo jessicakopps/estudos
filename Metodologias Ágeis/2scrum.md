@@ -1,4 +1,5 @@
-***SCRUM***
+***SCRUM*** <br>
+Voltado para equipe <br>
 
 **Product Backlog:** demandas do produto
 **Sprint:** intervalo(no máx. 1 mês) para produção 
@@ -18,6 +19,23 @@
 **O Scrum não é um processo a ser executado**
 É mentalidade
 É um mecanismo, ou melhor, um arcabouço para otimizar o sistema de entrega de valor, em ambientes complexos
+
+---
+***A EQUIPE SCRUM (Scrum Team)***
+
+**Crossfuncional:**
+- Product Owner (PO): Gerencia (maximiza) a entrega de valor (e.g., retorno do investimento) - Negócio ➡ PO: Ordenar as ideias da equipe ➡ Desenvolver. Prioriza e gerencia o Backlog do Produto
+- Scrum Master: Garantir que o ciclo todo funcione. Faz o meio de campo entre a Organização e a Equipe  Scrum. Causa remoção de impedimentos, de uma forma que deixe a equipe idependente. Lidera e facilita a adoção do Scrum.
+- Desenvolvedores: Transformam itens de backlog em funcionalidades de valor para o negócio. Desenvolvedor é qualquer pessoa que iá trabalhar em qualquer aspecto do produto que irá ser entregue (Testador, Escritor técnico, Analista, Especialista, Designer). Auto-gerenciavel - A equipe que define suas tarefas e o tempo.
+
+**Auto-gerenciavel:**
+- Conhecimento botton-up (de baixo para cima)
+- A equipe pensa em uma solução do problema informado - Alinhamento e autonomia em equilíbrio;
+
+**No máximo 10 membros (recomendado)**
+
+**Uma equipe ágil deve ser formada de Generalistas ou Especialistas**
+- Ideal é pessoas de modelo em T: Especialista em algo, mas com conhecimento em outras áreas, flexíveis.
 
 ---
 ***PRODUCT GOAL*** *(template:romanpichler)* </br>
@@ -79,21 +97,33 @@ Não se usa para comparar equipes.
 - Planning Poker - Membros da equipe pontuam os itens. Caso tenha divergência, a pessoa explica o por quê daquela pontuação. Caso não chegue em um acordo, pegue outro item para referência, ou escolha (otimização de tempo).
 
 ---
-***A EQUIPE SCRUM (Scrum Team)***
+***MODELO KANO*** </br>
+Vai dar o valor, não em termos numéricos, mas quanto o cliente deseja aquilo.
 
-**Crossfuncional:**
-- Product Owner (PO): Gerencia (maximiza) a entrega de valor (e.g., retorno do investimento) - Negócio ➡ PO: Ordenar as ideias da equipe ➡ Desenvolver. Prioriza e gerencia o Backlog do Produto
-- Scrum Master: Garantir que o ciclo todo funcione. Faz o meio de campo entre a Organização e a Equipe  Scrum. Causa remoção de impedimentos, de uma forma que deixe a equipe idependente. Lidera e facilita a adoção do Scrum.
-- Desenvolvedores: Transformam itens de backlog em funcionalidades de valor para o negócio. Desenvolvedor é qualquer pessoa que iá trabalhar em qualquer aspecto do produto que irá ser entregue (Testador, Escritor técnico, Analista, Especialista, Designer). Auto-gerenciavel - A equipe que define suas tarefas e o tempo.
+**Categorização de funcionalidades em três categorias:** </br>
+- Obrigatórios
+  - É básico. Sua presença não agrega tanto valor, mas a sua ausência tem impacto negativo imenso.
+- Lineares
+  - Quanto mais, melhor. Ou melhor, quanto mais funcionalidades lineares, mais o cliente pagará.
+- Excitadores ou alegradores
+  - Necessidades desconhecidas.
 
-**Auto-gerenciavel:**
-- Conhecimento botton-up (de baixo para cima)
-- A equipe pensa em uma solução do problema informado - Alinhamento e autonomia em equilíbrio;
+**Como classificar se um item do backlog ta em uma das categorias acima:** </br>
+- Forma funcional: Se o usuário é capaz de alterar a foto de perfil, como você se sente?
+- Forma disfuncional: Se o usuário não é capaz de alterar a foto de perfil, como você se sente?
+- Peguntas em ambas as formas: 
+  - Eu gosto disso.
+  - Eu espero que seja assim.
+  - Sou neutro.
+  - Posso viver com isso.
+  - Eu não gosto disso.
 
-**No máximo 10 membros (recomendado)**
+  - Ná prática:
+  [![FBsIUcJ.png](https://i.imgur.com/FBsIUcJ.png)](https://imgur.com/FBsIUcJ)
+    - Questionável: é quando não fica claro a resposta
+    - Reverso: ex: Espera que tenha, mas se não tiver tmb vai gostar
 
-**Uma equipe ágil deve ser formada de Generalistas ou Especialistas**
-- Ideal é pessoas de modelo em T: Especialista em algo, mas com conhecimento em outras áreas, flexíveis.
+### Quanto mais tarde entrar no mercado, mais itens se tornam obrigatórios por causa da concorrência.
 
 ---
 ***DEFINITION OF DONE*** </br>

@@ -1,5 +1,5 @@
 ***KANBAN*** **(Tradução Japonês: visível) - Lean manufacturing** </br>
-Atender demandas mais simples de forma rápida e eficiente.
+Atender demandas mais simples de forma rápida e eficiente. Voltado para processo em geral.
 
 **Três conceitos:**
 - Visualizar o fluxo de trabalho(workflow) - Usar Kanban Board
