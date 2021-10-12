@@ -1,5 +1,5 @@
 ## GIT
-https://git-scm.com/book/en/v2/
+https://git-scm.com/book/en/v2/ <br>
 Sistema de controle de versão distribuido. Projetado com desempenho, segurança e flexibilidade.
 
 - Principais ferramentas: Github, Bitbucket, Gitlab
