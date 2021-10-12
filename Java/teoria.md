@@ -86,7 +86,7 @@ Quando maior o número, maior é a precedência
 | 9           | <<br> <=<br> ><br> >=<br> instanceof | Menor que<br> Menor que ou igual<br> Maior que<br> Maior que ou igual<br> Comparação de tipos (objects only)|
 | 8           | ==<br> !=          | Igualdade <br> Desigualdade |
 | 7           | &<br>              | E lógico (bit a bit) |
-| 6           | ^<br> Ou exclusivo (bit a bit0)<br> ∙  | Parentesis <br> Seleção em array <br> Seleção de membros |
+| 6           | ^<br>              | Ou exclusivo (bit a bit0)<br> ∙  |
 | 5           | \|<br>             | Ou lógico (bit a bit) |
 | 4           | &&                 | Parentesis <br> Seleção em array <br> Seleção de membros |
 | 3           | \|\|               | OU lógico |
