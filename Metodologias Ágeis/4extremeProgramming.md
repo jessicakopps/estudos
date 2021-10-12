@@ -79,10 +79,11 @@ A equipe sobre o código para o repositório, essa ferramenta do repositorio est
 </br>
 
 *Quando usar?* </br>
-Expertise     | Complexidade | Usar PP? </br>
-Júnior        | Baixa        | Sim, se maior qualidade for o alvo </br>
- ______       | Alta         | Sim, se maior qualidade for o alvo </br>
-Intermediário | Baixa        | Não </br>
- ______       | Alta         | Sim, se maior qualidade for o alvo </br>
-Sênior        | Baixa        | Não </br>
- ______       | Alta         | Não, a não ser que a tarefa seja muito complexa para um sênior sozinho </br>
+|   Expertise   |  Complexidade  |    Usar PP?   |
+| :---          | :---           | :---          |
+| Júnior        | Baixa          | Sim, se maior qualidade for o alvo    |
+| Júnior        | Alta           | Sim, se maior qualidade for o alvo    |
+| Intermediário | Baixa          | Não                                   |
+| Intermediário | Alta           | Sim, se maior qualidade for o alvo    |
+| Sênior        | Baixa          | Não                                   |
+| Sênior        | Alta           | Não, a não ser que a tarefa seja muito complexa para um sênior sozinho    |
