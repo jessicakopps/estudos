@@ -14,7 +14,7 @@
 ***TIPOS PRIMITIVOS*** <br>
 Tipos de informação mais usuais e básicos.
 
-[(http://www.universidadejava.com.br/images/2011-06-15-java-tipos-primitivos-01.png)](http://www.universidadejava.com.br/images/2011-06-15-java-tipos-primitivos-01.png)
+[![I9ITeqR.png](https://i.imgur.com/I9ITeqR.png)](http://www.universidadejava.com.br/images/2011-06-15-java-tipos-primitivos-01.png)
 
 - Inteiros: Diferem nas precisões e podem ser positivos ou negativos. 
   - Byte: 1 byte. 
@@ -84,11 +84,11 @@ Quando maior o número, maior é a precedência
 | 11          | +<br> ­-              | Adição<br> Subtração |
 | 10          | <<<br> >><br> >>>    | Deslocamento aritmético p/esquerda<br> Deslocamento aritmético p/ direita<br> SDeslocamento lógico p/ direita |
 | 9           | <<br> <=<br> ><br> >=<br> instanceof | Menor que<br> Menor que ou igual<br> Maior que<br> Maior que ou igual<br> Comparação de tipos (objects only)|
-| 8           | ==<br> !=          | Igualdade <br> Desigualdade |
-| 7           | &<br>              | E lógico (bit a bit) |
-| 6           | ^<br>              | Ou exclusivo (bit a bit0)<br> ∙  |
-| 5           | \|<br>             | Ou lógico (bit a bit) |
-| 4           | &&                 | Parentesis <br> Seleção em array <br> Seleção de membros |
-| 3           | \|\|               | OU lógico |
-| 2           | ? :                | Condição ternária |
+| 8           | ==<br> !=            | Igualdade <br> Desigualdade |
+| 7           | &<br>                | E lógico (bit a bit) |
+| 6           | ^<br>                | Ou exclusivo (bit a bit0) |
+| 5           | \|<br>               | Ou lógico (bit a bit) |
+| 4           | &&                   | Parentesis <br> Seleção em array <br> Seleção de membros |
+| 3           | \|\|                 | OU lógico |
+| 2           | ? :                  | Condição ternária |
 | 1           | =<br> +=<br> -­=<br> *=<br> /=<br> %= | Atribuição<br> Atribuição aditiva<br> Atribuição subtrativa<br> Atribuição de Multiplicação<br> Atribuição de Divisão<br> Atribuição de Módulo |
