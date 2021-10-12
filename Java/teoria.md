@@ -14,7 +14,7 @@
 ***TIPOS PRIMITIVOS*** <br>
 Tipos de informação mais usuais e básicos.
 
-[![I9ITeqR.png](https://i.imgur.com/I9ITeqR.png)](http://www.universidadejava.com.br/images/2011-06-15-java-tipos-primitivos-01.png)
+[(http://www.universidadejava.com.br/images/2011-06-15-java-tipos-primitivos-01.png)](http://www.universidadejava.com.br/images/2011-06-15-java-tipos-primitivos-01.png)
 
 - Inteiros: Diferem nas precisões e podem ser positivos ou negativos. 
   - Byte: 1 byte. 
