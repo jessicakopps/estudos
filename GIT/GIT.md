@@ -4,7 +4,7 @@ Sistema de controle de versão distribuido. Projetado com desempenho, segurança
 
 - Principais ferramentas: Github, Bitbucket, Gitlab
 
--
+--
 ***AJUDA***
 ```
 git help
@@ -13,14 +13,14 @@ git help commit
 git help <qualquer_comando_git>
 ```
 
--
+--
 ***CONFIGURAR USUÁRIO***
 ```
 git config --global user.name "Seu Nome"
 git config --global user.email seu.email@example.com
 ```
 
--
+--
 ***GERAL***
 
 - Listar configurações
@@ -57,14 +57,14 @@ git show SHA1 (inspeciona o commit)
 git show (inspeciona o último commit)
 fork: fazer uma cópia para seu GitHub
 ```
--
+--
 ***GIT IGNORE***
 ```
 .gitignore 
 ```
 - Arquivo onde ficará os nome de arquivos e pastas que não serão adicionados em um repositório.
 
--
+--
 ***INICIALIZAR REPOSITÓRIO LOCAL | INIT, ADD, RESET, COMMIT, BRANCH***
 ```
 git init
@@ -78,14 +78,14 @@ git commit -am "nome commit" (atalho para adicionar e commitar ao mesmo tempo)
 ```
 Sempre mude a branch de MASTER para MAIN para não dar erro com o repositório remoto
 
--
+--
 ***REMOVER | RM***
 ```
 git rm meu_arquivo.txt
 git rm -r diretorio
 ```
 
--
+--
 ***BRANCH FEATURE (CAMINHO ALTERNATIVO) | BRANCH, CHECKOUT, MERGE***
 - O master é o branch principal do GIT.
 - Branch: ramificação de uma linha temporal
@@ -120,7 +120,7 @@ git push origin nome-da-branch:new-branch (Criando um branch remoto com nome dif
 git checkout -b nome-da-branch origin/nome-da-branch (Baixar um branch remoto para edição)
 ```
 
--
+--
 ***REPOSITÓRIO REMOTO | REMOTE, PUSH***
 
 - Criar repositório vazio no GitHub
@@ -141,28 +141,28 @@ git remote rename origin curso-git
 git remote rm curso-git
 ```
 
--
+--
 ***CLONAR REPOSITÓRIO REMOTO PARA LOCAL | CLONE***
 ```
 git clone URL
 git clone URLrepositorio --recurse-submodules (baixa os outros submodulos do rep.)
 ```
 
--
+--
 ***ATUALIZAR REPOSITORIO LOCAL | PULL***
 ```
 git pull 
 git fetch (Buscar alterações, mas não aplica-las no branch atual)
 ```
 
--
+--
 ***GITFLOW***
 
 - Separar a master pra não quebrarem o código
 
 [![C1qD7yM.png](https://i.imgur.com/C1qD7yM.png)](https://imgur.com/C1qD7yM)
 
--
+--
 ***CONTRIBUINDO COM OUTROS PROJETOS | PULL REQUEST***
 
 - Clique em Fork no GitHub(direita em cima). Vai ser criado uma copia do repositorio
@@ -175,7 +175,7 @@ git push
 set-up (resolve conflitos e cria no origin)
 ```
 
--
+--
 ***BUGS | BISECT***
 - Útil para encontrar um commit que esta gerando um bug ou uma inconsistência entre uma sequência de commits.
 ```
@@ -189,7 +189,7 @@ git bisect good (Marcar o commit como bom)
     - Depois de encontrar o commit com problema, para retornar para o HEAD utilize:
 ```
 
--
+--
 ***FERRAMENTAS INTEGRADAS***
 
 - Automatização para encontrar o bug. Para identificar se você enviou um código bugado, impedindo de realizar o build. Quanto o codigo n tem bugs, o software ja manda para produção
