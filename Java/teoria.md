@@ -16,22 +16,28 @@ Tipos de informação mais usuais e básicos.
 
 [![I9ITeqR.png](https://i.imgur.com/I9ITeqR.png)](http://www.universidadejava.com.br/images/2011-06-15-java-tipos-primitivos-01.png)
 
+**Tipos primários**
 - Inteiros: Diferem nas precisões e podem ser positivos ou negativos. 
   - Byte: 1 byte. 
   - Short: 2 bytes. 
   - Int: 4 bytes.
   - Long: 8 bytes.  
 - Reais em ponto flutuante: igual que os inteiros também diferem nas precisões e podem ser positivos ou negativos. 
-  - Float preço = 322.99f (sem o f é um double)
-  - Double oreço2 = 343.43 (Numeros aiores que o float)
-- Char: Usa o código UNICODE e ocupa cada caractere 16 bits.
+  - float preço = 322.99f (sem o f é um double)
+  - double preço2 = 343.43 (Numeros aiores que o float)
+- char: Usa o código UNICODE e ocupa cada caractere 16 bits.
   - char letra1 = 'a'
   - char num5 = 34 (Imprime caracter da ascii table) 
 - Boolean: Não é um valor numérico, só admite os valores true ou false. 
 
----
-***CONDICIONAIS*** <br>
-
+**Tipos NÂO primários**
+  - Integer num6 = 98;
+  - Long num7 = (long) 9898;// Long l = 1000000000L;
+  - Short num8 = 32;
+  - Float preco3 = 322.99f;
+  - Double preco4 = 343.43;
+  - Byte num9 = 8;
+  - Character num10 = 35;
 
 ---
 ***DECLARAÇÕES IMPORT*** <br>
@@ -69,7 +75,7 @@ number2 = input.nextInt();
 sum = number1 + number2;
 System.out.printf("Sum is %d%n", sum); // exibe a soma
 ```
-- %d | d\ = Quebra de linha
+- %n | \n = Quebra de linha
 
 ---
 ***OPERADORES JAVA- TABELA DE PROCEDÊNCIA*** <br>
@@ -92,3 +98,21 @@ Quando maior o número, maior é a precedência
 | 3           | \|\|                 | OU lógico |
 | 2           | ? :                  | Condição ternária |
 | 1           | =<br> +=<br> -­=<br> *=<br> /=<br> %= | Atribuição<br> Atribuição aditiva<br> Atribuição subtrativa<br> Atribuição de Multiplicação<br> Atribuição de Divisão<br> Atribuição de Módulo |
+
+---
+***CONDICIONAIS*** <br>
+
+- If
+- If... else
+- Operador Ternário (?:)
+- Switch
+  - case 1 (numero declarado)
+  - o  que será executado
+  - breack; (sem o break todos os case serão executados)
+- While
+- Do while
+  - Executa e depois ele verifica
+- Fpr
+- For... Each
+
+
