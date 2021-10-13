@@ -260,7 +260,7 @@ public static void main(String[] args) {
 ```
 - Do objeto: constructor:
   - Produto {Nome, Preço, Desconto} -> 
-  - Constructor = Cria objeto a partir de uma classe.
+  - Constructor = Cria objeto a partir de uma classe:
 ```
 class Main {
   private String name;
