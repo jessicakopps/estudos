@@ -18,10 +18,10 @@ Tipos de informação mais usuais e básicos.
 
 **Tipos primários**
 - Inteiros: Diferem nas precisões e podem ser positivos ou negativos. 
-  - Byte: 1 byte. 
-  - Short: 2 bytes. 
-  - Int: 4 bytes.
-  - Long: 8 bytes.  
+  - byte: 1 byte. 
+  - short: 2 bytes. 
+  - int: 4 bytes.
+  - long: 8 bytes.  
 - Reais em ponto flutuante: igual que os inteiros também diferem nas precisões e podem ser positivos ou negativos. 
   - float preço = 322.99f (sem o f é um double)
   - double preço2 = 343.43 (Numeros aiores que o float)
@@ -37,7 +37,29 @@ Tipos de informação mais usuais e básicos.
   - Float preco3 = 322.99f;
   - Double preco4 = 343.43;
   - Byte num9 = 8;
-  - Character num10 = 35;
+  - Character num10 = 35; <br>
+
+- Conversão do Java
+  - Menor para o maior. Irá ocupar mais memoria porém o menor cabe no maior
+  - O contrário não é possivel
+  - No caso do Int para o Float não é possível pois o Int só aceita números inteiros.
+
+# Tipos primitivos não aceitam notação ponto.
+# Não há comportamento nem atributos nos tipos primitivos
+
+---
+***TIPOS PRIMITIVOS - WRAPPERS*** <br>
+- Permite que seja utilizado a notação ponto
+```
+Byte b = 100;
+Short s = 1000;
+Integer i = 10000;
+Long l = 100000000000L;
+
+// Byte[] data = new Byte[2]; // Atribuir dessa forma é má prática
+
+System.out.println(b.byteValue());
+```
 
 ---
 ***DECLARAÇÕES IMPORT*** <br>
@@ -75,7 +97,16 @@ number2 = input.nextInt();
 sum = number1 + number2;
 System.out.printf("Sum is %d%n", sum); // exibe a soma
 ```
-- %n | \n = Quebra de linha
+
+**Utilizar a classe Date**
+```
+import java.util.Date;
+```
+```
+Date d = new Date();
+System.out.println(d);
+```
+
 
 ---
 ***OPERADORES JAVA- TABELA DE PROCEDÊNCIA*** <br>
@@ -115,4 +146,64 @@ Quando maior o número, maior é a precedência
 - Fpr
 - For... Each
 
+---
+***VISUALIZAÇÃO NA TELA*** <br>
 
+- Printf - https://dev.to/linivecristine/print-vs-println-vs-printf-qual-a-diferenca-5dk0#:~:text=O%20println%20%C3%A9%20o%20%C3%BAnico,uma%20linha%5Cn%22)%20.
+```
+System.out.printf("O senhor %s %s tem %d anos e ganha R$ %.2f", nome, sobrenome, idade, salario);
+```
+- Println
+```
+String frase = String.format("O senhor %s %s tem %d anos e ganha R$ %.2f", nome, sobrenome, idade, salario);
+System.out.println(frase);
+```
+- True or false | imprimir por índices
+```
+System.out.println("frase qualquer".contains("qual")); // true ou false
+System.out.println("Frase qualquer".substring(6, 10)); // (Indice onde começa, indice onde termina)
+```
+- %n | \n = Quebra de linha
+- Numero depois dos % = espaços entre OU pode apenas dar um espaço. Ex:
+```
+System.out.printf("%1d%1d%n", i, array[i]);
+System.out.printf("%d %d %n", i, array[i]);
+```
+---
+***OBJETOS*** <br>
+- Objeto é uma instância.
+- Arrays(tamanho pré definido) e ArrayList(sem tamanho pré definido) https://www.java67.com/2012/12/difference-between-array-vs-arraylist-java.html
+
+  - Número de índices
+```
+int[] array = new int[10];
+```
+  - Com valores declarados
+```
+int[] array = { 32, 27,56, 76, 89, 87, 65, 78 };
+```
+- Outra forma de declarar array
+```
+int[] array = new int[10];
+array[0] = 1; // (índice, valor)
+```
+- Array List
+```
+ArrayList<String> nomes = new ArrayList()
+nomes.add(0, "Maria"); // (Índice/index, elemento)
+nomes.add("João");
+```
+
+---
+***CLASSES*** <br>
+
+- Quando é criado uma classe, e é atribuído um valor a essa classe
+    - Está sendo criado um objeto associado aquela classe.
+- Classe instancia (dar vida) ao objeto. Classe seria a planta da casa, e a instância a casa em si.
+- Classe representa uma simplificação de modo geral.
+```
+Class(Estrutura de dados) Nome {
+  Corpo -> Comportamento = Ações que o obj. pode tomar = "Verbos" (Membros da classe)
+        -> Atributos = Características do objeto = "Adjetivos" (Membros da classe)
+}
+```

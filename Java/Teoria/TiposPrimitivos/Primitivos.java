@@ -44,8 +44,7 @@ public class Primitivos {
     var g = 12.01;
     g = 12; 
 
-
-
+    // Tipos primitivos não aceitam notação ponto. 
 
   }
 }
