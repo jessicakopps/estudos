@@ -44,8 +44,8 @@ Tipos de informação mais usuais e básicos.
   - O contrário não é possivel
   - No caso do Int para o Float não é possível pois o Int só aceita números inteiros.
 
-# Tipos primitivos não aceitam notação ponto.
-# Não há comportamento nem atributos nos tipos primitivos
+### Tipos primitivos não aceitam notação ponto.
+### Não há comportamento nem atributos nos tipos primitivos
 
 ---
 ***TIPOS PRIMITIVOS - WRAPPERS*** <br>
@@ -107,7 +107,6 @@ Date d = new Date();
 System.out.println(d);
 ```
 
-
 ---
 ***OPERADORES JAVA- TABELA DE PROCEDÊNCIA*** <br>
 Quando maior o número, maior é a precedência
@@ -143,7 +142,7 @@ Quando maior o número, maior é a precedência
 - While
 - Do while
   - Executa e depois ele verifica
-- Fpr
+- For
 - For... Each
 
 ---
@@ -174,15 +173,15 @@ System.out.printf("%d %d %n", i, array[i]);
 - Objeto é uma instância.
 - Arrays(tamanho pré definido) e ArrayList(sem tamanho pré definido) https://www.java67.com/2012/12/difference-between-array-vs-arraylist-java.html
 
-  - Número de índices
+  1. Número de índices
 ```
 int[] array = new int[10];
 ```
-  - Com valores declarados
+  2. Com valores declarados
 ```
 int[] array = { 32, 27,56, 76, 89, 87, 65, 78 };
 ```
-- Outra forma de declarar array
+  3. Outra forma de declarar array
 ```
 int[] array = new int[10];
 array[0] = 1; // (índice, valor)
@@ -207,3 +206,7 @@ Class(Estrutura de dados) Nome {
         -> Atributos = Características do objeto = "Adjetivos" (Membros da classe)
 }
 ```
+
+---
+***OBJETO vs CLASSES*** <br>
+- Objeto são os dados criados a partir de determinada classe.
