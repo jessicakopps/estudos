@@ -37,18 +37,20 @@ Tipos de informação mais usuais e básicos.
   - Float preco3 = 322.99f;
   - Double preco4 = 343.43;
   - Byte num9 = 8;
-  - Character num10 = 35; <br>
+  - Character num10 = 35; 
+<br>
 
-- Conversão do Java
-  - Menor para o maior. Irá ocupar mais memoria porém o menor cabe no maior
+**Conversão do Java**
+  - Menor para o maior. Irá ocupar mais memória porém o menor cabe no maior
   - O contrário não é possivel
-  - No caso do Int para o Float não é possível pois o Int só aceita números inteiros.
+  - No caso do Int para o Float não é possível, pois o Int só aceita números inteiros.
 
 ### Tipos primitivos não aceitam notação ponto.
-### Não há comportamento nem atributos nos tipos primitivos
+### Não há comportamento nem atributos nos tipos primitivos.
 
 ---
 ***TIPOS PRIMITIVOS - WRAPPERS*** <br>
+- Embrulho, algo que envolve.
 - Permite que seja utilizado a notação ponto
 ```
 Byte b = 100;
@@ -70,7 +72,7 @@ biblioteca de classes Java, ou Java Application Programming Interface (Java API)
 ```
 import java.util.Scanner;
 ```
-- Declarando e criando um Scanner para obter entrada do usuário a partir do teclado
+1. Declarando e criando um Scanner para obter entrada do usuário a partir do teclado
 ```
 Scanner input = new Scanner(System.in);
 
@@ -79,20 +81,20 @@ int number2; // segundo número a somar
 int sum;
 // soma de number1 e number2
 ```
-- Solicitando entrada ao usuário
+2. Solicitando entrada ao usuário
 ```
 System.out.print("Enter first integer: "); // prompt
 ```
-- Obtendo um int como entrada do usuário
+3. Obtendo um int como entrada do usuário
 ```
 number1 = input.nextInt(); // lê o primeiro número fornecido pelo usuário
 ```
-- Solicitando e inserindo um segundo int
+4. Solicitando e inserindo um segundo int
 ```
 System.out.print("Enter second integer: ");
 number2 = input.nextInt();
 ```
-- Usando variáveis em um cálculo e exibindo o resultado do cálculo
+5. Usando variáveis em um cálculo e exibindo o resultado do cálculo
 ```
 sum = number1 + number2;
 System.out.printf("Sum is %d%n", sum); // exibe a soma
@@ -147,8 +149,8 @@ Quando maior o número, maior é a precedência
 
 ---
 ***VISUALIZAÇÃO NA TELA*** <br>
-
-- Printf - https://dev.to/linivecristine/print-vs-println-vs-printf-qual-a-diferenca-5dk0#:~:text=O%20println%20%C3%A9%20o%20%C3%BAnico,uma%20linha%5Cn%22)%20.
+https://dev.to/linivecristine/print-vs-println-vs-printf-qual-a-diferenca-5dk0#:~:text=O%20println%20%C3%A9%20o%20%C3%BAnico,uma%20linha%5Cn%22)%20. <br>
+- Printf
 ```
 System.out.printf("O senhor %s %s tem %d anos e ganha R$ %.2f", nome, sobrenome, idade, salario);
 ```
@@ -170,23 +172,36 @@ System.out.printf("%d %d %n", i, array[i]);
 ```
 ---
 ***OBJETOS*** <br>
-- Objeto é uma instância.
-- Arrays(tamanho pré definido) e ArrayList(sem tamanho pré definido) https://www.java67.com/2012/12/difference-between-array-vs-arraylist-java.html
+- Objeto é uma instância. 
+<br>
 
-  1. Número de índices
+- Arrays(tamanho pré definido) e ArrayList(sem tamanho pré definido) <br>
+https://www.java67.com/2012/12/difference-between-array-vs-arraylist-java.html
+
+**Arrays**
+1. Número de índices
 ```
 int[] array = new int[10];
 ```
-  2. Com valores declarados
+2. Com valores declarados
 ```
 int[] array = { 32, 27,56, 76, 89, 87, 65, 78 };
 ```
-  3. Outra forma de declarar array
+3. Outras formas de declarar array
 ```
 int[] array = new int[10];
 array[0] = 1; // (índice, valor)
 ```
-- Array List
+```
+import java.lang.reflect.Array;
+
+int a[] = { 1, 2, 3, 4, 5 };
+    
+for (int i = 0; i < 5; i++) {
+int x = (int)Array.get(a, i);
+System.out.print(x + " ");
+```
+**Array List**
 ```
 ArrayList<String> nomes = new ArrayList()
 nomes.add(0, "Maria"); // (Índice/index, elemento)
@@ -198,7 +213,7 @@ nomes.add("João");
 
 - Quando é criado uma classe, e é atribuído um valor a essa classe
     - Está sendo criado um objeto associado aquela classe.
-- Classe instancia (dar vida) ao objeto. Classe seria a planta da casa, e a instância a casa em si.
+- Classe instancia (dá vida) ao objeto. Classe seria a planta da casa, e a instância a casa em si.
 - Classe representa uma simplificação de modo geral.
 ```
 Class(Estrutura de dados) Nome {
@@ -206,7 +221,74 @@ Class(Estrutura de dados) Nome {
         -> Atributos = Características do objeto = "Adjetivos" (Membros da classe)
 }
 ```
+**Podemos ter**
+- Variáves
+- Construtores
+- Métodos
+- Classes: Pode ter classes dentro de classe
+
+**Membros da classe**
+- Atributos
+  - var
+    - classe
+    - objeto
+- Métodos
+  - classe
+  - objeto
+- Variáveis
+  - classe
+  - objeto
+
+### Static só é ligado a classe
+**Static** = Determinado atributo não terá mais um valor individual para cada instância, ou seja, o atributo pertence a classe, possuí apenas 1 valor e estará associado a classe
+  - Possuí apenas uma cópia na memória
+
 
 ---
 ***OBJETO vs CLASSES*** <br>
 - Objeto são os dados criados a partir de determinada classe.
+- Classe são instânciadas(pegando para você), atribui-se a uma variável e é declarado o tipo dela. Ex:
+```
+Scanner teclado = new Scanner(System.in);
+```
+
+**Métodos**
+- Da classe: static após o público = o atributo pertence a classe, e não ao objeto:
+```
+public class Main {
+public static void main(String[] args) {
+```
+- Do objeto: constructor:
+  - Produto {Nome, Preço, Desconto} -> 
+  - Constructor = Cria objeto a partir de uma classe.
+```
+class Main {
+  private String name;
+
+  // constructor
+  Main() {
+    System.out.println("Constructor Called:");
+    name = "Construtor";
+  }
+
+  public static void main(String[] args) {
+
+    // constructor é invocado enquanto
+    // é criado o objeto da classe Main
+    Main obj = new Main();
+    System.out.println("O nome é " + obj.name); // O nome é Construtor
+  }
+}
+```
+
+**Variáveis**
+- Da classe: 
+```
+Produto p1 = new Produto();
+```
+- Do objeto: Quando declaramos a variável e instanciamos a classe, a classe é armazenada na variável: 
+```
+Produto p1 = new Produto();
+var p2 = new Produto();
+```
+- new = Usar sempre que for instanciado, "pegar para você"

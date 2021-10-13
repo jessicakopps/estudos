@@ -4,7 +4,8 @@ public class Wrappers {
   public static void main(String[] args) {
 
     // WRAPPERS (embrulho, algo que envolve)
-    // O Byte, Short, Character, Integer// 
+    // Permite que seja utilizado a notação ponto
+    // O Byte, Short, Character, Integer 
     
     //byte b = 100;
     Byte b = 100;
