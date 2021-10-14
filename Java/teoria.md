@@ -243,7 +243,6 @@ Class(Estrutura de dados) Nome {
 **Static** = Determinado atributo não terá mais um valor individual para cada instância, ou seja, o atributo pertence a classe, possuí apenas 1 valor e estará associado a classe
   - Possuí apenas uma cópia na memória
 
-
 ---
 ***OBJETO vs CLASSES*** <br>
 - Objeto são os dados criados a partir de determinada classe.
@@ -292,3 +291,23 @@ Produto p1 = new Produto();
 var p2 = new Produto();
 ```
 - new = Usar sempre que for instanciado, "pegar para você"
+
+---
+***PARADIGMA A OBJETOS*** <br>
+- Está em desuso
+- https://developer.ibm.com/br/tutorials/j-introtojava1/
+- https://developer.ibm.com/br/tutorials/j-introtojava2/
+
+**Herança**
+- Pode-se herdar as características e comportamentos do pai
+
+**Encapsulamento**
+- O objeto deve esconder seus dados e os detalhes de sua implementação
+- O método que está visível não está encapsulado, os outros 2 métados ficam encapsulados
+
+**Polimorfismo**
+- @Override
+- Faz uma sobreescrita alterando os métodos da Interface
+- Na interface só há a assinatura e a contrução do método
+- https://www.devmedia.com.br/uso-de-polimorfismo-em-java/26140
+
