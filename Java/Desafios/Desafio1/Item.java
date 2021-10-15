@@ -1,8 +1,5 @@
 package Desafios.Desafio1;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Item {
   Produto produto;
   int quantidade;

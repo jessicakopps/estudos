@@ -22,10 +22,29 @@ public class Cliente {
 
   double obterValorTotal() {
     double total = 0;
-    //for (int i = 0; i < 10; i++) // Comparação com o código abaixo
-      for (Compra compraAtual : compras) {
-        total += compraAtual.obterValorTotal();
-      }
+    // for (int i = 0; i < 10; i++) // Comparação com o código abaixo
+    for (Compra compraAtual : compras) {
+      total += compraAtual.obterValorTotal();
+    }
     return total;
+  }
+
+  // método que varre a lista de compras, calculando o valor item a item e exibindo ao final.
+  void imprimirListaCompra() {
+
+    System.out.println("Lista de compras");
+    System.out.println(" - - - - - - - - - - - - - - ");
+
+    for (Compra compraIndividual : compras) {
+      for (Item itemDaCompra : compraIndividual.itens) {
+        System.out.println("Produto: " + itemDaCompra.produto.nome + " | " 
+        + "Quantidade: " + itemDaCompra.quantidade + " | " 
+        + "Total: R$" + compraIndividual.obterValorIndividual(itemDaCompra));
+      }
+      System.out.println("\n" + "Valor total da compra: R$" + compraIndividual.obterValorTotal());
+    }
+
+    System.out.println(" * * * * * * * * * * * * * * * * * * * * * * * * ");
+    System.out.println("Valor total da compra: R$" + obterValorTotal());
   }
 }

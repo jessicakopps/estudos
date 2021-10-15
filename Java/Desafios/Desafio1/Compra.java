@@ -12,7 +12,7 @@ public class Compra {
   }
 
   void adicionarItem(String nome, double preco, int qtde) {
-    var produto = new produto(nome, preco);
+    var produto = new Produto(nome, preco);
     this.itens.add(new Item(produto, qtde));
   }
 
@@ -23,5 +23,12 @@ public class Compra {
       total += item.quantidade * item.produto.preco;
     }
     return total;
-  }  
+  }
+
+  // método para obter o valor de cada compra (quantidade * preço) 
+  // para auxiliar no outro método que criei para varrer cada item de compra 
+  // e ao final exibir a relação dos produtos.
+  double obterValorIndividual(Item item){
+    return item.produto.preco * item.quantidade;
+  }
 }

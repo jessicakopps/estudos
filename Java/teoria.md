@@ -132,8 +132,9 @@ Quando maior o número, maior é a precedência
 | 1           | =<br> +=<br> -­=<br> *=<br> /=<br> %= | Atribuição<br> Atribuição aditiva<br> Atribuição subtrativa<br> Atribuição de Multiplicação<br> Atribuição de Divisão<br> Atribuição de Módulo |
 
 ---
-***CONDICIONAIS*** <br>
+***CONDICIONAIS | REPETIÇÂO*** <br>
 
+**Condicionais:**
 - If
 - If... else
 - Operador Ternário (?:)
@@ -141,6 +142,7 @@ Quando maior o número, maior é a precedência
   - case 1 (numero declarado)
   - o  que será executado
   - breack; (sem o break todos os case serão executados)
+**Repetição:**
 - While
 - Do while
   - Executa e depois ele verifica
@@ -299,7 +301,10 @@ var p2 = new Produto();
 - https://developer.ibm.com/br/tutorials/j-introtojava2/
 
 **Herança**
+- extends
 - Pode-se herdar as características e comportamentos do pai
+- código legado: código que outra pessoa fez evocê irá usar/modificar/aprimorar.
+- qnd extendemos uma classe a classe que esta extendendo se torna uma subclasse
 
 **Encapsulamento**
 - O objeto deve esconder seus dados e os detalhes de sua implementação
@@ -310,4 +315,14 @@ var p2 = new Produto();
 - Faz uma sobreescrita alterando os métodos da Interface
 - Na interface só há a assinatura e a contrução do método
 - https://www.devmedia.com.br/uso-de-polimorfismo-em-java/26140
+<br>
+
+- deve-se SEMPRE especificar explicitamente um membro de uma classe como *public* ou *private* (eventualmente *protected*);
+os atributos de uma classe devem ser definidos como private;
+- métodos que fazem a interface externa de uma classe devem ser declarados como *public* (sendo portanto herdados pelas subclasses);
+se deseja-se que a classe seja usada como *superclasse* por outras pessoas, deve-se manter os atributos como private e prover métodos de acesso e manipulação como public. Controla-se assim a manipulação da superclasse por parte da classe derivada;
+- métodos que fazem a interface externa de uma classe devem ser declarados como *public* (sendo portanto herdados pelas subclasses);
+- se deseja-se que a classe seja usada como superclasse por outras pessoas, deve-se manter os atributos como *private* e prover métodos de acesso e manipulação como public. Controla-se assim a manipulação da superclasse por parte da classe derivada; Mais seguro
+- usamos o atributo *protected* quando definimos classes dentro de um pacote e desejamos dar ao usuário do pacote (desenvolvedor de classes em outro pacote) acesso apenas às subclasses.
+- o super. referencia algo da classe mae. Sempre é chamado. *Super* é uma palavra-chave de Java que se refere ao pai imediato de uma classe e é usada dentro da definição do método subclasse para chamar um método definido na superclasse. Uma superclasse com métodos como privados não pode ser chamada. Apenas os métodos que são públicos e protegidos podem ser chamados pela palavra-chave super. Também é usado por construtores de classe para invocar construtores de sua classe de pais.
 
