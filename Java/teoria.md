@@ -326,3 +326,95 @@ se deseja-se que a classe seja usada como *superclasse* por outras pessoas, deve
 - usamos o atributo *protected* quando definimos classes dentro de um pacote e desejamos dar ao usuário do pacote (desenvolvedor de classes em outro pacote) acesso apenas às subclasses.
 - o super. referencia algo da classe mae. Sempre é chamado. *Super* é uma palavra-chave de Java que se refere ao pai imediato de uma classe e é usada dentro da definição do método subclasse para chamar um método definido na superclasse. Uma superclasse com métodos como privados não pode ser chamada. Apenas os métodos que são públicos e protegidos podem ser chamados pela palavra-chave super. Também é usado por construtores de classe para invocar construtores de sua classe de pais.
 
+
+
+---
+***EXPRESSÕES LAMBDA*** <br>
+- https://www.devmedia.com.br/como-usar-funcoes-lambda-em-java/32826
+- Reduz as linhas de código e fica mais intuitivo.
+- O tipo da variável do argumento é opcional.
+- Lista de parâmetros, separado por vírgula dentro de () // REVER, COMEÇO AULA SABADO
+- Seta ->
+- Corpo por uma expessão única 
+<br>
+
+- Sintaxe
+```
+() -> {}
+(lista de parâmetros) -> { instruções }
+(int x, int y) -> { return x + y; }
+(x,y) -> x + y;
+int soma = () -> { return a + b; }
+```
+- Se não te return na função, ela é void (retorna nulo)
+Fazer exercícios do Livro Java Deitel, página 637
+
+**Métodos - Collections**
+- filter()
+- map()
+- forEach()
+- min() e max()
+
+---
+***CURIOSIDADES*** <br>
+- Código minificado (ex: JQUERY)
+
+---
+***TRATAMENTO DE ERROS*** <br>
+
+- Throwable
+- Tratar erro:
+```
+try
+{
+  //trecho de código que pode vir a lançar uma exceção
+}
+catch(tipo_exceçao_1 e)
+{
+  //ação a ser tomada
+}
+catch(tipo_exceçao_2 e)
+{
+  //ação a ser tomada
+}
+catch(tipo_exceçao_n e)
+{
+  //ação a ser tomada
+}
+```
+- Sem try catch
+```
+public class aumentaFrase {
+  public static void main(String args[])
+  {
+    String frase = null;
+    String novaFrase = null;
+    novaFrase = frase.toUpperCase();
+    System.out.println("Frase antiga: "+frase);
+    System.out.println("Frase nova: "+novaFrase);
+  }
+}
+```
+- Com try catch
+```
+public static void main(String args[])
+{
+  String frase = null;
+  String novaFrase = null;
+  try
+  {
+    novaFrase = frase.toUpperCase();
+  }
+  catch(NullPointerException e) //CAPTURA DA POSSÍVEL exceção.
+  {
+    //TRATAMENTO DA exceção
+    System.out.println("O frase inicial está nula,
+    para solucional tal o problema, foi lhe atribuito um valor default.");
+    frase = "Frase vazia";
+    novaFrase = frase.toUpperCase();
+  }
+  System.out.println("Frase antiga: "+frase);
+  System.out.println("Frase nova: "+novaFrase);
+}
+
+```
