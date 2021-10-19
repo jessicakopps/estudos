@@ -294,6 +294,9 @@ var p2 = new Produto();
 ```
 - new = Usar sempre que for instanciado, "pegar para você"
 
+**Atributos vs Métodos**
+[![1LAzV0V.png](https://i.imgur.com/1LAzV0V.png)](https://manoelcampos.gitbooks.io/poo-java/content/images/controle-remoto-ar.png)
+
 ---
 ***PARADIGMA A OBJETOS*** <br>
 - Está em desuso
@@ -361,8 +364,9 @@ Fazer exercícios do Livro Java Deitel, página 637
 
 ---
 ***TRATAMENTO DE ERROS*** <br>
-
+- Livro pag 368
 - Throwable
+- Boa prática deixar o tratamento no seu código.
 - Tratar erro:
 ```
 try
@@ -416,5 +420,49 @@ public static void main(String args[])
   System.out.println("Frase antiga: "+frase);
   System.out.println("Frase nova: "+novaFrase);
 }
-
 ```
+- Com finally
+```
+try
+{
+  //trecho de código que pode vir a lançar uma exceção
+}
+catch(tipo_exceçao_1 e)
+{
+  //ação a ser tomada
+}
+catch(tipo_exceçao_2 e)
+{
+  //ação a ser tomada
+}
+catch(tipo_exceçao _n e)
+{
+  //ação a ser tomada
+}
+finally
+{
+  //ação a ser tomada
+}
+```
+```
+public class FritarOvo {
+    void Fritar() {
+        try {
+            coloquePanelaNoFogo();
+            ascendaOFogo();
+            pegueOvo();
+            coloqueNaPanela();
+            cozinhe();
+        } catch (SemOvos e) {
+            anotarNaListaDecompras(e);
+        } finally {
+            apagarFogo();
+        }
+    }
+}
+```
+
+---
+***PALAVRAS RESERVADAS*** <br>
+- http://www.linhadecodigo.com.br/artigo/83/as-52-palavras-reservadas-do-java.aspx
+- https://www.jdoodle.com/online-java-compiler/
