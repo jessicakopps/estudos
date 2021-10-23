@@ -315,6 +315,7 @@ var p2 = new Produto();
 
 **Polimorfismo**
 - @Override
+- Polimorfismo é reaproveitar métodos e atributos da classe mãe
 - Faz uma sobreescrita alterando os métodos da Interface
 - Na interface só há a assinatura e a contrução do método
 - https://www.devmedia.com.br/uso-de-polimorfismo-em-java/26140
@@ -466,3 +467,9 @@ public class FritarOvo {
 ***PALAVRAS RESERVADAS*** <br>
 - http://www.linhadecodigo.com.br/artigo/83/as-52-palavras-reservadas-do-java.aspx
 - https://www.jdoodle.com/online-java-compiler/
+
+---
+***RECURSIVIDADE*** <br>
+
+- Fatorial:
+  - 3! = 3 * 2 * 1
