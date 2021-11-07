@@ -42,18 +42,20 @@ Associada com classes que representam a ideia do Service do Domain Driven Design
 ---
 ***DATA MAPPER***
 
-@Id
-
-@Column
-
+- @Table(name = "nome_tabela")
+- @GeneratedValue(strategy = GenerationType.IDENTITY)
+- @Id : Indica pro BD qual atributo é chave primária
+- @Generated : Diz q o Id é auto implementável
+- @ManyToOne(mappedBy = "nome_coluna")
+- @JoinColumn(name = "nome_coluna")
 
 ---
-***JPA***
-
-- ORM não é um padrão de projeto e sim uma técnica. Não só existem tecnologias como o Hibernate ou JPA que fazer uso do ORM, mas sim várias.
-
-**JPA**: é uma camada no seu código, ela que irá conversar com seu ORM. É responsável pelo mapeamneto objeto relacional e persistência; <br>
+***JPA*** <br>
+É uma camada no seu código, ela que irá conversar com seu ORM. É responsável pelo mapeamneto objeto relacional e persistência; <br>
 Para trabalhar com JPA é preciso usar uma ferramenta ORM, como o Hibernate.
+
+***ORM** <br>
+ORM não é um padrão de projeto e sim uma técnica. Não só existem tecnologias como o Hibernate ou JPA que fazer uso do ORM, mas sim várias.
 
 **HIBERNATE** <br>
 É um framework ORM
@@ -62,5 +64,23 @@ Para trabalhar com JPA é preciso usar uma ferramenta ORM, como o Hibernate.
 - É uma implementação x Uma especificação
 - A classe que vai implementar essa interface x Interface que define mapeamento das classes e algumas configurações
 - Pode atuar com outras ferramentas do ecossistema do Java x Nunca atua sozinho
+
+
+---
+***HTTP*** <br>
+
+- GET : ler
+- POST : criar
+- PUT : substituir
+- PATCH : modificar
+- DELETE : excluir
+
+**Quando o cliente faz um Request o Server envia um Response**
+https://http.cat/
+- 100-199 : informação
+- 200-299 : sucesso
+- 300-399 : redirecionamento
+- 400-499 : erro do cliente
+- 500-599 : erro do servidor
 
 
