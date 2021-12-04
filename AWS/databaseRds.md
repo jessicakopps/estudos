@@ -45,7 +45,7 @@
 | M2            | /usr/local/apache-maven/bin    
 | M2_HOME       | /usr/local/apache-maven/    
 | JAVA_HOME     | /usr/lib/jvm/java
-| PORT          | 8080
+| PORT          | 5000
 
 
 - Banco de dados
