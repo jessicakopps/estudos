@@ -18,6 +18,7 @@
 
 - API Gateway
 - Criar API
+- API nova
  - API Rest
  - Importar
  - Nome da API*
@@ -37,8 +38,8 @@
   - Ações
     - Implantar API
     -  Estágio de implantação: [Novo estágio]
-    - Nome do estágio - Ex: Prod-nome
-    - Implantar
+    - Nome do estágio - Ex: prod-nome
+    - Implante
 
 - No Postman
   - Cole o link do API gateway/CaminhoMétodo
