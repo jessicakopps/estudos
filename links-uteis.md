@@ -1,6 +1,10 @@
 # 🔗 LINKS ÚTEIS
 
 ---
+### 🗺️ Guia de qual área seguir:
+https://roadmap.sh/
+
+---
 ### 👁️‍🗨️ Programação visual
 - - http://www.flowgorithm.org/
 
