@@ -5,7 +5,7 @@ Realizar anotações me ajuda no processo de aprendizagem, tanto para fixar os c
 </br>
 E espero que possa ajudar a quem consultá-las também 🚀 <br>
 
-- Veja também alguns <a target="_blank" href="./links-uteis.md"> links úteis</a>
+- Veja também alguns <a target="_blank" href="./links-uteis.md"> links úteis</a>.
 
 
 ---

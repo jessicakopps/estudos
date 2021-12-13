@@ -2,7 +2,7 @@
 
 ---
 ### 🗺️ Guia de qual área seguir:
-https://roadmap.sh/
+- https://roadmap.sh/
 
 ---
 ### 👁️‍🗨️ Programação visual
