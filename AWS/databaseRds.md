@@ -44,7 +44,7 @@
 | GRADLE_HOME   | /usr/local/gradle  
 | M2            | /usr/local/apache-maven/bin    
 | M2_HOME       | /usr/local/apache-maven/    
-| JAVA_HOME     | /usr/lib/jvm/java
+| JAVA_HOME     | /usr/lib/jvm/java ou /usr/lib/jvm/jre
 | PORT          | 5000
 
 
