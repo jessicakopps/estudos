@@ -6,7 +6,7 @@
 
 ---
 ### 👁️‍🗨️ Programação visual
-- - http://www.flowgorithm.org/
+- http://www.flowgorithm.org/
 
 ---
 ### 💻 IDE online para treinar a lógica de programação:
@@ -15,7 +15,7 @@
 ---
 ### 🧠 Testes e desafios
 - http://urionlinejudge.com.br/judge/pt/problems/index/1
-- https://www.hackerrank.com/ - https://www.hackerrank.com/domains/tutorials/10-days-of-javascript
+- https://www.hackerrank.com/ | https://www.hackerrank.com/domains/tutorials/10-days-of-javascript
 - https://app.codesignal.com/
 - https://www.codewars.com/
 
