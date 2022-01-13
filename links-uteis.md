@@ -1,6 +1,6 @@
 # 🔗 LINKS ÚTEIS
 
-Separei aqui alguns itens que considero úteis. 
+Separei aqui alguns links que me ajudaram em algum momento e/ou que considero importante e pretendo utilizar de seus recursos em algum momento. Espero que ajude vocês também! 
 
 ---
 ### 🗺️ Guia de qual área seguir:
