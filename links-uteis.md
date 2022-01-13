@@ -15,9 +15,10 @@
 ---
 ### 🧠 Testes e desafios
 - http://urionlinejudge.com.br/judge/pt/problems/index/1
-- https://www.hackerrank.com/
+- https://www.hackerrank.com/ - https://www.hackerrank.com/domains/tutorials/10-days-of-javascript
 - https://app.codesignal.com/
 - https://www.codewars.com/
 
 ***Frontend:***
 - https://github.com/juntossomosmais/frontend-guideline?s=08#code-syntax
+- https://www.frontendmentor.io/
