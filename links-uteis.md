@@ -22,3 +22,13 @@
 ***Frontend:***
 - https://github.com/juntossomosmais/frontend-guideline?s=08#code-syntax
 - https://www.frontendmentor.io/
+
+---
+### 📚 Cursos, Workshops e Bootcamps
+
+- https://www.udemy.com/courses/search/?q=cursos%20gratuitos&src=sac&kw=gratuito
+- https://digitalinnovation.one/
+
+***AWS***
+- https://explore.skillbuilder.aws/learn
+- https://awesome-aws-workshops.com/
