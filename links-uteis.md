@@ -1,5 +1,7 @@
 # 🔗 LINKS ÚTEIS
 
+Separei aqui alguns itens que considero úteis. 
+
 ---
 ### 🗺️ Guia de qual área seguir:
 - https://roadmap.sh/
