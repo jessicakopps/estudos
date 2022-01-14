@@ -1,7 +1,7 @@
 # 🔗 LINKS ÚTEIS
 
 ---
-### 🗺️ Guia de qual área seguir:
+### 🗺️ Guia de qual área seguir
 - https://roadmap.sh/
 
 ---
