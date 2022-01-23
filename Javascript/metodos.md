@@ -27,6 +27,5 @@ parse = converter
 **n.substring(índiceStart[, índiceSEnd]):** retorna a parte da string entre os índices inicial e final
 **n.charAt(índice):** Retorna o caractere que se encontra nesse indice
 
-
 ---
 
