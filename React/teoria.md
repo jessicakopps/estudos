@@ -524,3 +524,7 @@ Em home/index:
    - Framework opn source, mantida pela Zeit;
    - Visa facilitar e padronizar o desenvolvimento de aplicações React;
    - Possui ferramentas que lidam com problemas referentes a SEO, com suporte a SSR(server side rendering).
+
+```
+npm install next react react-dom
+```
