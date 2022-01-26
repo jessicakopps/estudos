@@ -1,4 +1,5 @@
 ***REACT*** <br>
+
 - Lib para criação de interfaces.
 - Usada nas contruções de SPA (Single PAges Applications).
 - Podemos chamar de framework, devido a seu ecossistema:
@@ -8,6 +9,7 @@
    Webpack etc
 - Tudo dentro do JavaScript (elementos visuais, lógica e estilo).
 - Padrão camelCase
+- https://storybook.js.org/docs/react/get-started/introduction
 <br>
 
 ***VANTAGENS*** <br>
@@ -22,13 +24,13 @@
 **Programação Declarativa** <br>
    - Dizemos o que queremos e ele se encarrega do resto.
 
-*Programação Imperativa: Dizer tudo o que o computador precisa fazer.*
+*Programação Imperativa: Dizer tudo o que o computador precisa fazer.* <br>
 *Programação Declarativa: Você não diz como, e sim o que quer que seja exibido.*
 
 ---
 **Alguns Pontos**<br>
 
-O react acontece por renderizações. 
+O React acontece por renderizações. 
 Renderizar = 'processar' algo e devolver um produto final.<br>
 
 **JSX:** Um cogigo html dentro de um código Javascript.<br>
@@ -520,5 +522,5 @@ Em home/index:
 
 **Next.Js**
    - Framework opn source, mantida pela Zeit;
-   - Visa facilitar e padronizar o desenvolvimento de aplicações Peact;
+   - Visa facilitar e padronizar o desenvolvimento de aplicações React;
    - Possui ferramentas que lidam com problemas referentes a SEO, com suporte a SSR(server side rendering).
