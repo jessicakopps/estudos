@@ -526,5 +526,6 @@ Em home/index:
    - Possui ferramentas que lidam com problemas referentes a SEO, com suporte a SSR(server side rendering).
 
 ```
+npx create-next-app
 npm install next react react-dom
 ```
