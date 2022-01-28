@@ -7,8 +7,9 @@ Separei aqui alguns links que me ajudaram e/ou que considero importante e preten
 - https://roadmap.sh/
 
 ---
-### 👁️‍🗨️ Programação visual
+### 👁️‍🗨️ Programação visual | Jogos
 - http://www.flowgorithm.org/
+- https://cssgridgarden.com/
 
 ---
 ### 💻 IDE online para treinar a lógica de programação:
