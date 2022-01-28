@@ -10,6 +10,7 @@ Separei aqui alguns links que me ajudaram e/ou que considero importante e preten
 ### 👁️‍🗨️ Programação visual | Jogos
 - http://www.flowgorithm.org/
 - https://cssgridgarden.com/
+- https://flexboxfroggy.com/
 
 ---
 ### 💻 IDE online para treinar a lógica de programação:
