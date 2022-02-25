@@ -12,6 +12,12 @@ Separei aqui alguns links que me ajudaram e/ou que considero importante e preten
 - https://cssgridgarden.com/
 - https://flexboxfroggy.com/
 
+***Aplicativos***
+- while True: learn()
+- brain:code - tricky puzzles
+- Human Resource Machine
+
+
 ---
 ### 💻 IDE online para treinar a lógica de programação:
 - https://portugol-webstudio.cubos.io/ide
