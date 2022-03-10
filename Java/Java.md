@@ -1,5 +1,12 @@
 # Java
 
+O compilador da linguagem Java não gera código para um processador específico, mas sim para uma máquina virtual Java
+(conhecida como Java Virtual Machine – JVM). Os programas escritos em Java são, portanto, portáveis sobre todas as plataformas para as quais existir uma implementação da JVM. <br>
+Programas Java são constituídos de classes. Os membros de uma classe são os atributos (ou campos) e os métodos. O programador pode, além de escrever suas próprias classes, usar as classes prontas da biblioteca Java, conhecida como Interface do
+Programa de Aplicação (API). <br>
+O programa-fonte é criado em um editor e armazenado em um arquivo com a extensão .java. O compilador lê o arquivo .java e traduz o programa fonte em bytecodes e armazena em um arquivo com a extensão .class. O carregador lê o arquivo .class e carrega os bytecodes na memória. <br>
+O verificador de bytecodes confirma a validade dos bytecodes quanto às restrições de segurança. Finalmente, a máquina virtual executa o programa, seguindo as ações especificadas pelos bytecodes, que nada mais são do que os comandos codificados pelo programador, porém na linguagem da máquina.
+
 ***PREPARANDO O AMBIENTE***
 
 **Intalação**
